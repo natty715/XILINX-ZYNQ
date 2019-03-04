@@ -1,0 +1,8 @@
+00:41:48 **** Incremental Build of configuration Debug for project AXI_DMA_LOOP_TEST ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+
+00:41:49 Build Finished (took 285ms)
+

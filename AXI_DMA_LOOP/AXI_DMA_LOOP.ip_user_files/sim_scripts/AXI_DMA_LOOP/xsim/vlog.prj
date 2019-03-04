@@ -1,0 +1,48 @@
+verilog xil_defaultlib --include "../../../../AXI_DMA_LOOP.srcs/sources_1/bd/AXI_DMA_LOOP/ipshared/ec67/hdl" --include "../../../../AXI_DMA_LOOP.srcs/sources_1/bd/AXI_DMA_LOOP/ipshared/02c8/hdl/verilog" --include "../../../../AXI_DMA_LOOP.srcs/sources_1/bd/AXI_DMA_LOOP/ipshared/1313/hdl" --include "../../../../AXI_DMA_LOOP.srcs/sources_1/bd/AXI_DMA_LOOP/ipshared/0ab1/hdl" --include "../../../../AXI_DMA_LOOP.srcs/sources_1/bd/AXI_DMA_LOOP/ipshared/e2dd/hdl/verilog" --include "../../../../AXI_DMA_LOOP.srcs/sources_1/bd/AXI_DMA_LOOP/ipshared/6180/hdl/verilog" --include "../../../../AXI_DMA_LOOP.srcs/sources_1/bd/AXI_DMA_LOOP/ipshared/a08d/hdl/verilog" --include "../../../../AXI_DMA_LOOP.srcs/sources_1/bd/AXI_DMA_LOOP/ipshared/6851/hdl/verilog" --include "../../../../AXI_DMA_LOOP.srcs/sources_1/bd/AXI_DMA_LOOP/ipshared/82bb/hdl/verilog" \
+"../../../../AXI_DMA_LOOP.srcs/sources_1/bd/AXI_DMA_LOOP/ip/AXI_DMA_LOOP_processing_system7_0_0/sim/AXI_DMA_LOOP_processing_system7_0_0.v" \
+"../../../../AXI_DMA_LOOP.srcs/sources_1/bd/AXI_DMA_LOOP/ip/AXI_DMA_LOOP_axis_data_fifo_0_0/sim/AXI_DMA_LOOP_axis_data_fifo_0_0.v" \
+
+sv xil_defaultlib --include "../../../../AXI_DMA_LOOP.srcs/sources_1/bd/AXI_DMA_LOOP/ipshared/ec67/hdl" --include "../../../../AXI_DMA_LOOP.srcs/sources_1/bd/AXI_DMA_LOOP/ipshared/02c8/hdl/verilog" --include "../../../../AXI_DMA_LOOP.srcs/sources_1/bd/AXI_DMA_LOOP/ipshared/1313/hdl" --include "../../../../AXI_DMA_LOOP.srcs/sources_1/bd/AXI_DMA_LOOP/ipshared/0ab1/hdl" --include "../../../../AXI_DMA_LOOP.srcs/sources_1/bd/AXI_DMA_LOOP/ipshared/e2dd/hdl/verilog" --include "../../../../AXI_DMA_LOOP.srcs/sources_1/bd/AXI_DMA_LOOP/ipshared/6180/hdl/verilog" --include "../../../../AXI_DMA_LOOP.srcs/sources_1/bd/AXI_DMA_LOOP/ipshared/a08d/hdl/verilog" --include "../../../../AXI_DMA_LOOP.srcs/sources_1/bd/AXI_DMA_LOOP/ipshared/6851/hdl/verilog" --include "../../../../AXI_DMA_LOOP.srcs/sources_1/bd/AXI_DMA_LOOP/ipshared/82bb/hdl/verilog" \
+"../../../../AXI_DMA_LOOP.srcs/sources_1/bd/AXI_DMA_LOOP/ip/AXI_DMA_LOOP_axi_smc_0/bd_0/ip/ip_10/sim/bd_6d0d_s00a2s_0.sv" \
+"../../../../AXI_DMA_LOOP.srcs/sources_1/bd/AXI_DMA_LOOP/ip/AXI_DMA_LOOP_axi_smc_0/bd_0/ip/ip_16/sim/bd_6d0d_s01a2s_0.sv" \
+"../../../../AXI_DMA_LOOP.srcs/sources_1/bd/AXI_DMA_LOOP/ip/AXI_DMA_LOOP_axi_smc_0/bd_0/ip/ip_20/sim/bd_6d0d_m00s2a_0.sv" \
+"../../../../AXI_DMA_LOOP.srcs/sources_1/bd/AXI_DMA_LOOP/ip/AXI_DMA_LOOP_axi_smc_0/bd_0/ip/ip_26/sim/bd_6d0d_m00e_0.sv" \
+"../../../../AXI_DMA_LOOP.srcs/sources_1/bd/AXI_DMA_LOOP/ip/AXI_DMA_LOOP_axi_smc_0/bd_0/ip/ip_21/sim/bd_6d0d_m00arn_0.sv" \
+"../../../../AXI_DMA_LOOP.srcs/sources_1/bd/AXI_DMA_LOOP/ip/AXI_DMA_LOOP_axi_smc_0/bd_0/ip/ip_22/sim/bd_6d0d_m00rn_0.sv" \
+"../../../../AXI_DMA_LOOP.srcs/sources_1/bd/AXI_DMA_LOOP/ip/AXI_DMA_LOOP_axi_smc_0/bd_0/ip/ip_23/sim/bd_6d0d_m00awn_0.sv" \
+"../../../../AXI_DMA_LOOP.srcs/sources_1/bd/AXI_DMA_LOOP/ip/AXI_DMA_LOOP_axi_smc_0/bd_0/ip/ip_24/sim/bd_6d0d_m00wn_0.sv" \
+"../../../../AXI_DMA_LOOP.srcs/sources_1/bd/AXI_DMA_LOOP/ip/AXI_DMA_LOOP_axi_smc_0/bd_0/ip/ip_25/sim/bd_6d0d_m00bn_0.sv" \
+"../../../../AXI_DMA_LOOP.srcs/sources_1/bd/AXI_DMA_LOOP/ip/AXI_DMA_LOOP_axi_smc_0/bd_0/ip/ip_17/sim/bd_6d0d_sawn_0.sv" \
+"../../../../AXI_DMA_LOOP.srcs/sources_1/bd/AXI_DMA_LOOP/ip/AXI_DMA_LOOP_axi_smc_0/bd_0/ip/ip_18/sim/bd_6d0d_swn_0.sv" \
+"../../../../AXI_DMA_LOOP.srcs/sources_1/bd/AXI_DMA_LOOP/ip/AXI_DMA_LOOP_axi_smc_0/bd_0/ip/ip_19/sim/bd_6d0d_sbn_0.sv" \
+"../../../../AXI_DMA_LOOP.srcs/sources_1/bd/AXI_DMA_LOOP/ip/AXI_DMA_LOOP_axi_smc_0/bd_0/ip/ip_13/sim/bd_6d0d_s01mmu_0.sv" \
+"../../../../AXI_DMA_LOOP.srcs/sources_1/bd/AXI_DMA_LOOP/ip/AXI_DMA_LOOP_axi_smc_0/bd_0/ip/ip_14/sim/bd_6d0d_s01tr_0.sv" \
+"../../../../AXI_DMA_LOOP.srcs/sources_1/bd/AXI_DMA_LOOP/ip/AXI_DMA_LOOP_axi_smc_0/bd_0/ip/ip_15/sim/bd_6d0d_s01sic_0.sv" \
+"../../../../AXI_DMA_LOOP.srcs/sources_1/bd/AXI_DMA_LOOP/ip/AXI_DMA_LOOP_axi_smc_0/bd_0/ip/ip_11/sim/bd_6d0d_sarn_0.sv" \
+"../../../../AXI_DMA_LOOP.srcs/sources_1/bd/AXI_DMA_LOOP/ip/AXI_DMA_LOOP_axi_smc_0/bd_0/ip/ip_12/sim/bd_6d0d_srn_0.sv" \
+"../../../../AXI_DMA_LOOP.srcs/sources_1/bd/AXI_DMA_LOOP/ip/AXI_DMA_LOOP_axi_smc_0/bd_0/ip/ip_7/sim/bd_6d0d_s00mmu_0.sv" \
+"../../../../AXI_DMA_LOOP.srcs/sources_1/bd/AXI_DMA_LOOP/ip/AXI_DMA_LOOP_axi_smc_0/bd_0/ip/ip_8/sim/bd_6d0d_s00tr_0.sv" \
+"../../../../AXI_DMA_LOOP.srcs/sources_1/bd/AXI_DMA_LOOP/ip/AXI_DMA_LOOP_axi_smc_0/bd_0/ip/ip_9/sim/bd_6d0d_s00sic_0.sv" \
+"../../../../AXI_DMA_LOOP.srcs/sources_1/bd/AXI_DMA_LOOP/ip/AXI_DMA_LOOP_axi_smc_0/bd_0/ip/ip_2/sim/bd_6d0d_arsw_0.sv" \
+"../../../../AXI_DMA_LOOP.srcs/sources_1/bd/AXI_DMA_LOOP/ip/AXI_DMA_LOOP_axi_smc_0/bd_0/ip/ip_3/sim/bd_6d0d_rsw_0.sv" \
+"../../../../AXI_DMA_LOOP.srcs/sources_1/bd/AXI_DMA_LOOP/ip/AXI_DMA_LOOP_axi_smc_0/bd_0/ip/ip_4/sim/bd_6d0d_awsw_0.sv" \
+"../../../../AXI_DMA_LOOP.srcs/sources_1/bd/AXI_DMA_LOOP/ip/AXI_DMA_LOOP_axi_smc_0/bd_0/ip/ip_5/sim/bd_6d0d_wsw_0.sv" \
+"../../../../AXI_DMA_LOOP.srcs/sources_1/bd/AXI_DMA_LOOP/ip/AXI_DMA_LOOP_axi_smc_0/bd_0/ip/ip_6/sim/bd_6d0d_bsw_0.sv" \
+
+verilog xil_defaultlib --include "../../../../AXI_DMA_LOOP.srcs/sources_1/bd/AXI_DMA_LOOP/ipshared/ec67/hdl" --include "../../../../AXI_DMA_LOOP.srcs/sources_1/bd/AXI_DMA_LOOP/ipshared/02c8/hdl/verilog" --include "../../../../AXI_DMA_LOOP.srcs/sources_1/bd/AXI_DMA_LOOP/ipshared/1313/hdl" --include "../../../../AXI_DMA_LOOP.srcs/sources_1/bd/AXI_DMA_LOOP/ipshared/0ab1/hdl" --include "../../../../AXI_DMA_LOOP.srcs/sources_1/bd/AXI_DMA_LOOP/ipshared/e2dd/hdl/verilog" --include "../../../../AXI_DMA_LOOP.srcs/sources_1/bd/AXI_DMA_LOOP/ipshared/6180/hdl/verilog" --include "../../../../AXI_DMA_LOOP.srcs/sources_1/bd/AXI_DMA_LOOP/ipshared/a08d/hdl/verilog" --include "../../../../AXI_DMA_LOOP.srcs/sources_1/bd/AXI_DMA_LOOP/ipshared/6851/hdl/verilog" --include "../../../../AXI_DMA_LOOP.srcs/sources_1/bd/AXI_DMA_LOOP/ipshared/82bb/hdl/verilog" \
+"../../../../AXI_DMA_LOOP.srcs/sources_1/bd/AXI_DMA_LOOP/ip/AXI_DMA_LOOP_axi_smc_0/bd_0/ip/ip_0/sim/bd_6d0d_one_0.v" \
+"../../../../AXI_DMA_LOOP.srcs/sources_1/bd/AXI_DMA_LOOP/ip/AXI_DMA_LOOP_axi_smc_0/bd_0/sim/bd_6d0d.v" \
+"../../../../AXI_DMA_LOOP.srcs/sources_1/bd/AXI_DMA_LOOP/ip/AXI_DMA_LOOP_axi_smc_0/sim/AXI_DMA_LOOP_axi_smc_0.v" \
+"../../../../AXI_DMA_LOOP.srcs/sources_1/bd/AXI_DMA_LOOP/ip/AXI_DMA_LOOP_ila_0_0/sim/AXI_DMA_LOOP_ila_0_0.v" \
+"../../../../AXI_DMA_LOOP.srcs/sources_1/bd/AXI_DMA_LOOP/ip/AXI_DMA_LOOP_system_ila_0_0/bd_0/ip/ip_0/sim/bd_9e58_ila_lib_0.v" \
+"../../../../AXI_DMA_LOOP.srcs/sources_1/bd/AXI_DMA_LOOP/ip/AXI_DMA_LOOP_system_ila_0_0/bd_0/ip/ip_1/bd_9e58_g_inst_0_gigantic_mux.v" \
+"../../../../AXI_DMA_LOOP.srcs/sources_1/bd/AXI_DMA_LOOP/ip/AXI_DMA_LOOP_system_ila_0_0/bd_0/ip/ip_1/sim/bd_9e58_g_inst_0.v" \
+"../../../../AXI_DMA_LOOP.srcs/sources_1/bd/AXI_DMA_LOOP/ip/AXI_DMA_LOOP_system_ila_0_0/bd_0/sim/bd_9e58.v" \
+"../../../../AXI_DMA_LOOP.srcs/sources_1/bd/AXI_DMA_LOOP/ip/AXI_DMA_LOOP_system_ila_0_0/sim/AXI_DMA_LOOP_system_ila_0_0.v" \
+"../../../../AXI_DMA_LOOP.srcs/sources_1/bd/AXI_DMA_LOOP/ip/AXI_DMA_LOOP_xlconcat_0_0/sim/AXI_DMA_LOOP_xlconcat_0_0.v" \
+"../../../../AXI_DMA_LOOP.srcs/sources_1/bd/AXI_DMA_LOOP/ip/AXI_DMA_LOOP_auto_pc_0/sim/AXI_DMA_LOOP_auto_pc_0.v" \
+"../../../../AXI_DMA_LOOP.srcs/sources_1/bd/AXI_DMA_LOOP/sim/AXI_DMA_LOOP.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort
