@@ -1,0 +1,1484 @@
+20:25:34 **** Build of project AXI_DMA_PL_PS_TEST_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/axidma_v9_5/src"
+make -C ps7_cortexa9_0/libsrc/axidma_v9_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_5/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_8/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_5/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make libs in ps7_cortexa9_0/libsrc/axidma_v9_5/src"
+make -C ps7_cortexa9_0/libsrc/axidma_v9_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling axidma"
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling coresightps_dcc"
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_5/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_8/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_5/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling standalone"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling xadcps"
+'Finished building libraries'
+20:26:17 **** Build of configuration Debug for project AXI_DMA_PL_PS_TEST ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/dma_intr.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/dma_intr.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../AXI_DMA_PL_PS_TEST_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/dma_intr.d" -MT"src/dma_intr.o" -o "src/dma_intr.o" "../src/dma_intr.c"
+'Finished building: ../src/dma_intr.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../AXI_DMA_PL_PS_TEST_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:13:24: fatal error: timer_intr.h: No such file or directory
+ #include "timer_intr.h"
+                        ^
+compilation terminated.
+make: *** [src/main.o] ´íÎó 1
+20:26:49 **** Auto Build of configuration Debug for project AXI_DMA_PL_PS_TEST ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../AXI_DMA_PL_PS_TEST_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:17:9: error: unknown type name 'XScuTimer'
+ static  XScuTimer Timer;//timer
+         ^~~~~~~~~
+../src/main.c:37:8: error: unknown type name 'XGpio'
+ static XGpio Gpio;
+        ^~~~~
+../src/main.c: In function 'axi_dma_test':
+../src/main.c:49:2: warning: implicit declaration of function 'print_message' [-Wimplicit-function-declaration]
+  print_message( "----DMA Test----",0);//oled print
+  ^~~~~~~~~~~~~
+../src/main.c:53:2: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+  sprintf(oled_str,"PKT_LEN=%d",MAX_PKT_LEN);
+  ^~~~~~~
+../src/main.c:53:2: warning: incompatible implicit declaration of built-in function 'sprintf'
+../src/main.c:53:2: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+../src/main.c:65:2: warning: implicit declaration of function 'Timer_start' [-Wimplicit-function-declaration]
+  Timer_start(&Timer);
+  ^~~~~~~~~~~
+../src/main.c:103:6: error: 'usec' undeclared (first use in this function)
+   if(usec==2)
+      ^~~~
+../src/main.c:103:6: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c:107:26: warning: format '%d' expects argument of type 'int', but argument 3 has type 'u32 {aka volatile long unsigned int}' [-Wformat=]
+    sprintf(oled_str,"RX=%d",RX_success);
+                          ^
+../src/main.c:117:26: warning: format '%d' expects argument of type 'int', but argument 3 has type 'u32 {aka volatile long unsigned int}' [-Wformat=]
+    sprintf(oled_str,"TX=%d",TX_success);
+                          ^
+../src/main.c:143:2: warning: implicit declaration of function 'DMA_DisableIntrSystem' [-Wimplicit-function-declaration]
+  DMA_DisableIntrSystem(&Intc, TX_INTR_ID, RX_INTR_ID);
+  ^~~~~~~~~~~~~~~~~~~~~
+../src/main.c: In function 'init_intr_sys':
+../src/main.c:154:2: warning: implicit declaration of function 'Timer_init' [-Wimplicit-function-declaration]
+  Timer_init(&Timer,TIMER_LOAD_VALUE,0);
+  ^~~~~~~~~~
+../src/main.c:156:2: warning: implicit declaration of function 'Setup_Intr_Exception' [-Wimplicit-function-declaration]
+  Setup_Intr_Exception(&Intc);
+  ^~~~~~~~~~~~~~~~~~~~
+../src/main.c:158:2: warning: implicit declaration of function 'Timer_Setup_Intr_System' [-Wimplicit-function-declaration]
+  Timer_Setup_Intr_System(&Intc,&Timer,TIMER_IRPT_INTR);
+  ^~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:158:39: error: 'TIMER_IRPT_INTR' undeclared (first use in this function)
+  Timer_Setup_Intr_System(&Intc,&Timer,TIMER_IRPT_INTR);
+                                       ^~~~~~~~~~~~~~~
+../src/main.c:161:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+At top level:
+../src/main.c:37:14: warning: 'Gpio' defined but not used [-Wunused-variable]
+ static XGpio Gpio;
+              ^~~~
+make: *** [src/main.o] ´íÎó 1
+20:28:21 **** Auto Build of configuration Debug for project AXI_DMA_PL_PS_TEST ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../AXI_DMA_PL_PS_TEST_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:17:9: error: unknown type name 'XScuTimer'
+ static  XScuTimer Timer;//timer
+         ^~~~~~~~~
+../src/main.c:37:8: error: unknown type name 'XGpio'
+ static XGpio Gpio;
+        ^~~~~
+../src/main.c: In function 'axi_dma_test':
+../src/main.c:49:2: warning: implicit declaration of function 'print_message' [-Wimplicit-function-declaration]
+  print_message( "----DMA Test----",0);//oled print
+  ^~~~~~~~~~~~~
+../src/main.c:53:2: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+  sprintf(oled_str,"PKT_LEN=%d",MAX_PKT_LEN);
+  ^~~~~~~
+../src/main.c:53:2: warning: incompatible implicit declaration of built-in function 'sprintf'
+../src/main.c:53:2: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+../src/main.c:65:2: warning: implicit declaration of function 'Timer_start' [-Wimplicit-function-declaration]
+  Timer_start(&Timer);
+  ^~~~~~~~~~~
+../src/main.c:103:6: error: 'usec' undeclared (first use in this function)
+   if(usec==2)
+      ^~~~
+../src/main.c:103:6: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c:107:26: warning: format '%d' expects argument of type 'int', but argument 3 has type 'u32 {aka volatile long unsigned int}' [-Wformat=]
+    sprintf(oled_str,"RX=%d",RX_success);
+                          ^
+../src/main.c:117:26: warning: format '%d' expects argument of type 'int', but argument 3 has type 'u32 {aka volatile long unsigned int}' [-Wformat=]
+    sprintf(oled_str,"TX=%d",TX_success);
+                          ^
+../src/main.c:143:2: warning: implicit declaration of function 'DMA_DisableIntrSystem' [-Wimplicit-function-declaration]
+  DMA_DisableIntrSystem(&Intc, TX_INTR_ID, RX_INTR_ID);
+  ^~~~~~~~~~~~~~~~~~~~~
+../src/main.c: In function 'init_intr_sys':
+../src/main.c:154:2: warning: implicit declaration of function 'Timer_init' [-Wimplicit-function-declaration]
+  Timer_init(&Timer,TIMER_LOAD_VALUE,0);
+  ^~~~~~~~~~
+../src/main.c:156:2: warning: implicit declaration of function 'Setup_Intr_Exception' [-Wimplicit-function-declaration]
+  Setup_Intr_Exception(&Intc);
+  ^~~~~~~~~~~~~~~~~~~~
+../src/main.c:158:2: warning: implicit declaration of function 'Timer_Setup_Intr_System' [-Wimplicit-function-declaration]
+  Timer_Setup_Intr_System(&Intc,&Timer,TIMER_IRPT_INTR);
+  ^~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:158:39: error: 'TIMER_IRPT_INTR' undeclared (first use in this function)
+  Timer_Setup_Intr_System(&Intc,&Timer,TIMER_IRPT_INTR);
+                                       ^~~~~~~~~~~~~~~
+../src/main.c:161:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+At top level:
+../src/main.c:37:14: warning: 'Gpio' defined but not used [-Wunused-variable]
+ static XGpio Gpio;
+              ^~~~
+make: *** [src/main.o] ´íÎó 1
+20:28:25 **** Auto Build of configuration Debug for project AXI_DMA_PL_PS_TEST ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../AXI_DMA_PL_PS_TEST_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:17:9: error: unknown type name 'XScuTimer'
+ static  XScuTimer Timer;//timer
+         ^~~~~~~~~
+../src/main.c:37:8: error: unknown type name 'XGpio'
+ static XGpio Gpio;
+        ^~~~~
+../src/main.c: In function 'axi_dma_test':
+../src/main.c:49:2: warning: implicit declaration of function 'print_message' [-Wimplicit-function-declaration]
+  print_message( "----DMA Test----",0);//oled print
+  ^~~~~~~~~~~~~
+../src/main.c:53:2: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+  sprintf(oled_str,"PKT_LEN=%d",MAX_PKT_LEN);
+  ^~~~~~~
+../src/main.c:53:2: warning: incompatible implicit declaration of built-in function 'sprintf'
+../src/main.c:53:2: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+../src/main.c:65:2: warning: implicit declaration of function 'Timer_start' [-Wimplicit-function-declaration]
+  Timer_start(&Timer);
+  ^~~~~~~~~~~
+../src/main.c:103:6: error: 'usec' undeclared (first use in this function)
+   if(usec==2)
+      ^~~~
+../src/main.c:103:6: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c:107:26: warning: format '%d' expects argument of type 'int', but argument 3 has type 'u32 {aka volatile long unsigned int}' [-Wformat=]
+    sprintf(oled_str,"RX=%d",RX_success);
+                          ^
+../src/main.c:117:26: warning: format '%d' expects argument of type 'int', but argument 3 has type 'u32 {aka volatile long unsigned int}' [-Wformat=]
+    sprintf(oled_str,"TX=%d",TX_success);
+                          ^
+../src/main.c:143:2: warning: implicit declaration of function 'DMA_DisableIntrSystem' [-Wimplicit-function-declaration]
+  DMA_DisableIntrSystem(&Intc, TX_INTR_ID, RX_INTR_ID);
+  ^~~~~~~~~~~~~~~~~~~~~
+../src/main.c: In function 'init_intr_sys':
+../src/main.c:154:2: warning: implicit declaration of function 'Timer_init' [-Wimplicit-function-declaration]
+  Timer_init(&Timer,TIMER_LOAD_VALUE,0);
+  ^~~~~~~~~~
+../src/main.c:156:2: warning: implicit declaration of function 'Setup_Intr_Exception' [-Wimplicit-function-declaration]
+  Setup_Intr_Exception(&Intc);
+  ^~~~~~~~~~~~~~~~~~~~
+../src/main.c:158:2: warning: implicit declaration of function 'Timer_Setup_Intr_System' [-Wimplicit-function-declaration]
+  Timer_Setup_Intr_System(&Intc,&Timer,TIMER_IRPT_INTR);
+  ^~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:158:39: error: 'TIMER_IRPT_INTR' undeclared (first use in this function)
+  Timer_Setup_Intr_System(&Intc,&Timer,TIMER_IRPT_INTR);
+                                       ^~~~~~~~~~~~~~~
+../src/main.c:161:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+At top level:
+../src/main.c:37:14: warning: 'Gpio' defined but not used [-Wunused-variable]
+ static XGpio Gpio;
+              ^~~~
+make: *** [src/main.o] ´íÎó 1
+20:28:58 **** Auto Build of configuration Debug for project AXI_DMA_PL_PS_TEST ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../AXI_DMA_PL_PS_TEST_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:38:8: error: unknown type name 'XGpio'
+ static XGpio Gpio;
+        ^~~~~
+../src/main.c: In function 'axi_dma_test':
+../src/main.c:50:2: warning: implicit declaration of function 'print_message' [-Wimplicit-function-declaration]
+  print_message( "----DMA Test----",0);//oled print
+  ^~~~~~~~~~~~~
+../src/main.c:108:26: warning: format '%d' expects argument of type 'int', but argument 3 has type 'u32 {aka volatile long unsigned int}' [-Wformat=]
+    sprintf(oled_str,"RX=%d",RX_success);
+                          ^
+../src/main.c:118:26: warning: format '%d' expects argument of type 'int', but argument 3 has type 'u32 {aka volatile long unsigned int}' [-Wformat=]
+    sprintf(oled_str,"TX=%d",TX_success);
+                          ^
+../src/main.c:144:2: warning: implicit declaration of function 'DMA_DisableIntrSystem' [-Wimplicit-function-declaration]
+  DMA_DisableIntrSystem(&Intc, TX_INTR_ID, RX_INTR_ID);
+  ^~~~~~~~~~~~~~~~~~~~~
+../src/main.c: In function 'init_intr_sys':
+../src/main.c:157:2: warning: implicit declaration of function 'Setup_Intr_Exception' [-Wimplicit-function-declaration]
+  Setup_Intr_Exception(&Intc);
+  ^~~~~~~~~~~~~~~~~~~~
+../src/main.c:162:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+At top level:
+../src/main.c:38:14: warning: 'Gpio' defined but not used [-Wunused-variable]
+ static XGpio Gpio;
+              ^~~~
+make: *** [src/main.o] ´íÎó 1
+20:30:17 **** Auto Build of configuration Debug for project AXI_DMA_PL_PS_TEST ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../AXI_DMA_PL_PS_TEST_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'axi_dma_test':
+../src/main.c:119:2: warning: implicit declaration of function 'DMA_DisableIntrSystem' [-Wimplicit-function-declaration]
+  DMA_DisableIntrSystem(&Intc, TX_INTR_ID, RX_INTR_ID);
+  ^~~~~~~~~~~~~~~~~~~~~
+../src/main.c: In function 'init_intr_sys':
+../src/main.c:131:2: warning: implicit declaration of function 'Setup_Intr_Exception' [-Wimplicit-function-declaration]
+  Setup_Intr_Exception(&Intc);
+  ^~~~~~~~~~~~~~~~~~~~
+../src/main.c:136:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building file: ../src/sys_intr.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/sys_intr.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../AXI_DMA_PL_PS_TEST_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/sys_intr.d" -MT"src/sys_intr.o" -o "src/sys_intr.o" "../src/sys_intr.c"
+'Finished building: ../src/sys_intr.c'
+' '
+'Building file: ../src/timer_intr.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/timer_intr.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../AXI_DMA_PL_PS_TEST_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/timer_intr.d" -MT"src/timer_intr.o" -o "src/timer_intr.o" "../src/timer_intr.c"
+'Finished building: ../src/timer_intr.c'
+' '
+'Building target: AXI_DMA_PL_PS_TEST.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../AXI_DMA_PL_PS_TEST_bsp/ps7_cortexa9_0/lib -o "AXI_DMA_PL_PS_TEST.elf"  ./src/dma_intr.o ./src/main.o ./src/sys_intr.o ./src/timer_intr.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: AXI_DMA_PL_PS_TEST.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size AXI_DMA_PL_PS_TEST.elf  |tee "AXI_DMA_PL_PS_TEST.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  41012	   3860	  24584	  69456	  10f50	AXI_DMA_PL_PS_TEST.elf
+'Finished building: AXI_DMA_PL_PS_TEST.elf.size'
+' '
+20:45:03 **** Incremental Build of configuration Debug for project AXI_DMA_PL_PS_TEST ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+20:46:16 **** Auto Build of configuration Debug for project AXI_DMA_PL_PS_TEST ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/dma_intr.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/dma_intr.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../AXI_DMA_PL_PS_TEST_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/dma_intr.d" -MT"src/dma_intr.o" -o "src/dma_intr.o" "../src/dma_intr.c"
+'Finished building: ../src/dma_intr.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../AXI_DMA_PL_PS_TEST_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'axi_dma_test':
+../src/main.c:119:2: warning: implicit declaration of function 'DMA_DisableIntrSystem' [-Wimplicit-function-declaration]
+  DMA_DisableIntrSystem(&Intc, TX_INTR_ID, RX_INTR_ID);
+  ^~~~~~~~~~~~~~~~~~~~~
+../src/main.c: In function 'init_intr_sys':
+../src/main.c:131:2: warning: implicit declaration of function 'Setup_Intr_Exception' [-Wimplicit-function-declaration]
+  Setup_Intr_Exception(&Intc);
+  ^~~~~~~~~~~~~~~~~~~~
+../src/main.c:136:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building target: AXI_DMA_PL_PS_TEST.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../AXI_DMA_PL_PS_TEST_bsp/ps7_cortexa9_0/lib -o "AXI_DMA_PL_PS_TEST.elf"  ./src/dma_intr.o ./src/main.o ./src/sys_intr.o ./src/timer_intr.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: AXI_DMA_PL_PS_TEST.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size AXI_DMA_PL_PS_TEST.elf  |tee "AXI_DMA_PL_PS_TEST.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  41012	   3860	  24584	  69456	  10f50	AXI_DMA_PL_PS_TEST.elf
+'Finished building: AXI_DMA_PL_PS_TEST.elf.size'
+' '
+20:46:28 **** Incremental Build of configuration Debug for project AXI_DMA_PL_PS_TEST ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+20:48:38 **** Incremental Build of configuration Debug for project AXI_DMA_PL_PS_TEST ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+20:50:36 **** Auto Build of configuration Debug for project AXI_DMA_PL_PS_TEST ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../AXI_DMA_PL_PS_TEST_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'axi_dma_test':
+../src/main.c:119:2: warning: implicit declaration of function 'DMA_DisableIntrSystem' [-Wimplicit-function-declaration]
+  DMA_DisableIntrSystem(&Intc, TX_INTR_ID, RX_INTR_ID);
+  ^~~~~~~~~~~~~~~~~~~~~
+../src/main.c: In function 'init_intr_sys':
+../src/main.c:131:2: warning: implicit declaration of function 'Setup_Intr_Exception' [-Wimplicit-function-declaration]
+  Setup_Intr_Exception(&Intc);
+  ^~~~~~~~~~~~~~~~~~~~
+../src/main.c:136:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building target: AXI_DMA_PL_PS_TEST.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../AXI_DMA_PL_PS_TEST_bsp/ps7_cortexa9_0/lib -o "AXI_DMA_PL_PS_TEST.elf"  ./src/dma_intr.o ./src/main.o ./src/sys_intr.o ./src/timer_intr.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: AXI_DMA_PL_PS_TEST.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size AXI_DMA_PL_PS_TEST.elf  |tee "AXI_DMA_PL_PS_TEST.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  41012	   3860	  24584	  69456	  10f50	AXI_DMA_PL_PS_TEST.elf
+'Finished building: AXI_DMA_PL_PS_TEST.elf.size'
+' '
+20:50:41 **** Incremental Build of configuration Debug for project AXI_DMA_PL_PS_TEST ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+20:51:50 **** Auto Build of configuration Debug for project AXI_DMA_PL_PS_TEST ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/dma_intr.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/dma_intr.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../AXI_DMA_PL_PS_TEST_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/dma_intr.d" -MT"src/dma_intr.o" -o "src/dma_intr.o" "../src/dma_intr.c"
+'Finished building: ../src/dma_intr.c'
+' '
+'Building target: AXI_DMA_PL_PS_TEST.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../AXI_DMA_PL_PS_TEST_bsp/ps7_cortexa9_0/lib -o "AXI_DMA_PL_PS_TEST.elf"  ./src/dma_intr.o ./src/main.o ./src/sys_intr.o ./src/timer_intr.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: AXI_DMA_PL_PS_TEST.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size AXI_DMA_PL_PS_TEST.elf  |tee "AXI_DMA_PL_PS_TEST.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  41012	   3860	  24584	  69456	  10f50	AXI_DMA_PL_PS_TEST.elf
+'Finished building: AXI_DMA_PL_PS_TEST.elf.size'
+' '
+20:51:54 **** Incremental Build of configuration Debug for project AXI_DMA_PL_PS_TEST ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+20:55:16 **** Auto Build of configuration Debug for project AXI_DMA_PL_PS_TEST ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../AXI_DMA_PL_PS_TEST_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'axi_dma_test':
+../src/main.c:119:2: warning: implicit declaration of function 'DMA_DisableIntrSystem' [-Wimplicit-function-declaration]
+  DMA_DisableIntrSystem(&Intc, TX_INTR_ID, RX_INTR_ID);
+  ^~~~~~~~~~~~~~~~~~~~~
+../src/main.c: In function 'init_intr_sys':
+../src/main.c:131:2: warning: implicit declaration of function 'Setup_Intr_Exception' [-Wimplicit-function-declaration]
+  Setup_Intr_Exception(&Intc);
+  ^~~~~~~~~~~~~~~~~~~~
+../src/main.c:136:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building target: AXI_DMA_PL_PS_TEST.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../AXI_DMA_PL_PS_TEST_bsp/ps7_cortexa9_0/lib -o "AXI_DMA_PL_PS_TEST.elf"  ./src/dma_intr.o ./src/main.o ./src/sys_intr.o ./src/timer_intr.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: AXI_DMA_PL_PS_TEST.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size AXI_DMA_PL_PS_TEST.elf  |tee "AXI_DMA_PL_PS_TEST.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  41012	   3860	  24584	  69456	  10f50	AXI_DMA_PL_PS_TEST.elf
+'Finished building: AXI_DMA_PL_PS_TEST.elf.size'
+' '
+20:55:22 **** Incremental Build of configuration Debug for project AXI_DMA_PL_PS_TEST ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+20:58:12 **** Auto Build of configuration Debug for project AXI_DMA_PL_PS_TEST ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../AXI_DMA_PL_PS_TEST_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'axi_dma_test':
+../src/main.c:119:2: warning: implicit declaration of function 'DMA_DisableIntrSystem' [-Wimplicit-function-declaration]
+  DMA_DisableIntrSystem(&Intc, TX_INTR_ID, RX_INTR_ID);
+  ^~~~~~~~~~~~~~~~~~~~~
+../src/main.c: In function 'init_intr_sys':
+../src/main.c:131:2: warning: implicit declaration of function 'Setup_Intr_Exception' [-Wimplicit-function-declaration]
+  Setup_Intr_Exception(&Intc);
+  ^~~~~~~~~~~~~~~~~~~~
+../src/main.c:136:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building target: AXI_DMA_PL_PS_TEST.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../AXI_DMA_PL_PS_TEST_bsp/ps7_cortexa9_0/lib -o "AXI_DMA_PL_PS_TEST.elf"  ./src/dma_intr.o ./src/main.o ./src/sys_intr.o ./src/timer_intr.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: AXI_DMA_PL_PS_TEST.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size AXI_DMA_PL_PS_TEST.elf  |tee "AXI_DMA_PL_PS_TEST.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  41012	   3860	  24584	  69456	  10f50	AXI_DMA_PL_PS_TEST.elf
+'Finished building: AXI_DMA_PL_PS_TEST.elf.size'
+' '
+20:58:16 **** Incremental Build of configuration Debug for project AXI_DMA_PL_PS_TEST ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+21:01:28 **** Incremental Build of configuration Debug for project AXI_DMA_PL_PS_TEST ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+21:04:07 **** Auto Build of configuration Debug for project AXI_DMA_PL_PS_TEST ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/dma_intr.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/dma_intr.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../AXI_DMA_PL_PS_TEST_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/dma_intr.d" -MT"src/dma_intr.o" -o "src/dma_intr.o" "../src/dma_intr.c"
+'Finished building: ../src/dma_intr.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../AXI_DMA_PL_PS_TEST_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'axi_dma_test':
+../src/main.c:119:2: warning: implicit declaration of function 'DMA_DisableIntrSystem' [-Wimplicit-function-declaration]
+  DMA_DisableIntrSystem(&Intc, TX_INTR_ID, RX_INTR_ID);
+  ^~~~~~~~~~~~~~~~~~~~~
+../src/main.c: In function 'init_intr_sys':
+../src/main.c:131:2: warning: implicit declaration of function 'Setup_Intr_Exception' [-Wimplicit-function-declaration]
+  Setup_Intr_Exception(&Intc);
+  ^~~~~~~~~~~~~~~~~~~~
+../src/main.c:136:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building target: AXI_DMA_PL_PS_TEST.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../AXI_DMA_PL_PS_TEST_bsp/ps7_cortexa9_0/lib -o "AXI_DMA_PL_PS_TEST.elf"  ./src/dma_intr.o ./src/main.o ./src/sys_intr.o ./src/timer_intr.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: AXI_DMA_PL_PS_TEST.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size AXI_DMA_PL_PS_TEST.elf  |tee "AXI_DMA_PL_PS_TEST.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  41012	   3860	  24584	  69456	  10f50	AXI_DMA_PL_PS_TEST.elf
+'Finished building: AXI_DMA_PL_PS_TEST.elf.size'
+' '
+21:04:14 **** Incremental Build of configuration Debug for project AXI_DMA_PL_PS_TEST ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+21:05:13 **** Incremental Build of configuration Debug for project AXI_DMA_PL_PS_TEST ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+21:06:15 **** Auto Build of configuration Debug for project AXI_DMA_PL_PS_TEST ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/dma_intr.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/dma_intr.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../AXI_DMA_PL_PS_TEST_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/dma_intr.d" -MT"src/dma_intr.o" -o "src/dma_intr.o" "../src/dma_intr.c"
+'Finished building: ../src/dma_intr.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../AXI_DMA_PL_PS_TEST_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'axi_dma_test':
+../src/main.c:119:2: warning: implicit declaration of function 'DMA_DisableIntrSystem' [-Wimplicit-function-declaration]
+  DMA_DisableIntrSystem(&Intc, TX_INTR_ID, RX_INTR_ID);
+  ^~~~~~~~~~~~~~~~~~~~~
+../src/main.c: In function 'init_intr_sys':
+../src/main.c:131:2: warning: implicit declaration of function 'Setup_Intr_Exception' [-Wimplicit-function-declaration]
+  Setup_Intr_Exception(&Intc);
+  ^~~~~~~~~~~~~~~~~~~~
+../src/main.c:136:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building target: AXI_DMA_PL_PS_TEST.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../AXI_DMA_PL_PS_TEST_bsp/ps7_cortexa9_0/lib -o "AXI_DMA_PL_PS_TEST.elf"  ./src/dma_intr.o ./src/main.o ./src/sys_intr.o ./src/timer_intr.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: AXI_DMA_PL_PS_TEST.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size AXI_DMA_PL_PS_TEST.elf  |tee "AXI_DMA_PL_PS_TEST.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  41012	   3860	  24584	  69456	  10f50	AXI_DMA_PL_PS_TEST.elf
+'Finished building: AXI_DMA_PL_PS_TEST.elf.size'
+' '
+21:06:19 **** Incremental Build of configuration Debug for project AXI_DMA_PL_PS_TEST ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+21:10:03 **** Auto Build of configuration Debug for project AXI_DMA_PL_PS_TEST ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/dma_intr.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/dma_intr.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../AXI_DMA_PL_PS_TEST_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/dma_intr.d" -MT"src/dma_intr.o" -o "src/dma_intr.o" "../src/dma_intr.c"
+../src/dma_intr.c:100:13: warning: 'DMA_TxIntrHandler' defined but not used [-Wunused-function]
+ static void DMA_TxIntrHandler(void *Callback)
+             ^~~~~~~~~~~~~~~~~
+'Finished building: ../src/dma_intr.c'
+' '
+'Building target: AXI_DMA_PL_PS_TEST.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../AXI_DMA_PL_PS_TEST_bsp/ps7_cortexa9_0/lib -o "AXI_DMA_PL_PS_TEST.elf"  ./src/dma_intr.o ./src/main.o ./src/sys_intr.o ./src/timer_intr.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: AXI_DMA_PL_PS_TEST.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size AXI_DMA_PL_PS_TEST.elf  |tee "AXI_DMA_PL_PS_TEST.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  40884	   3860	  24584	  69328	  10ed0	AXI_DMA_PL_PS_TEST.elf
+'Finished building: AXI_DMA_PL_PS_TEST.elf.size'
+' '
+21:10:07 **** Incremental Build of configuration Debug for project AXI_DMA_PL_PS_TEST ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+21:11:57 **** Incremental Build of configuration Debug for project AXI_DMA_PL_PS_TEST ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+21:13:05 **** Auto Build of configuration Debug for project AXI_DMA_PL_PS_TEST ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/dma_intr.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/dma_intr.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../AXI_DMA_PL_PS_TEST_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/dma_intr.d" -MT"src/dma_intr.o" -o "src/dma_intr.o" "../src/dma_intr.c"
+../src/dma_intr.c:100:13: warning: 'DMA_TxIntrHandler' defined but not used [-Wunused-function]
+ static void DMA_TxIntrHandler(void *Callback)
+             ^~~~~~~~~~~~~~~~~
+'Finished building: ../src/dma_intr.c'
+' '
+'Building target: AXI_DMA_PL_PS_TEST.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../AXI_DMA_PL_PS_TEST_bsp/ps7_cortexa9_0/lib -o "AXI_DMA_PL_PS_TEST.elf"  ./src/dma_intr.o ./src/main.o ./src/sys_intr.o ./src/timer_intr.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: AXI_DMA_PL_PS_TEST.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size AXI_DMA_PL_PS_TEST.elf  |tee "AXI_DMA_PL_PS_TEST.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  40884	   3860	  24584	  69328	  10ed0	AXI_DMA_PL_PS_TEST.elf
+'Finished building: AXI_DMA_PL_PS_TEST.elf.size'
+' '
+21:13:20 **** Incremental Build of configuration Debug for project AXI_DMA_PL_PS_TEST ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+21:14:37 **** Auto Build of configuration Debug for project AXI_DMA_PL_PS_TEST ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../AXI_DMA_PL_PS_TEST_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'axi_dma_test':
+../src/main.c:119:2: warning: implicit declaration of function 'DMA_DisableIntrSystem' [-Wimplicit-function-declaration]
+  DMA_DisableIntrSystem(&Intc, TX_INTR_ID, RX_INTR_ID);
+  ^~~~~~~~~~~~~~~~~~~~~
+../src/main.c: In function 'init_intr_sys':
+../src/main.c:131:2: warning: implicit declaration of function 'Setup_Intr_Exception' [-Wimplicit-function-declaration]
+  Setup_Intr_Exception(&Intc);
+  ^~~~~~~~~~~~~~~~~~~~
+../src/main.c:136:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building target: AXI_DMA_PL_PS_TEST.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../AXI_DMA_PL_PS_TEST_bsp/ps7_cortexa9_0/lib -o "AXI_DMA_PL_PS_TEST.elf"  ./src/dma_intr.o ./src/main.o ./src/sys_intr.o ./src/timer_intr.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: AXI_DMA_PL_PS_TEST.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size AXI_DMA_PL_PS_TEST.elf  |tee "AXI_DMA_PL_PS_TEST.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  40692	   3860	  24584	  69136	  10e10	AXI_DMA_PL_PS_TEST.elf
+'Finished building: AXI_DMA_PL_PS_TEST.elf.size'
+' '
+21:15:30 **** Incremental Build of configuration Debug for project AXI_DMA_PL_PS_TEST ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+21:17:31 **** Auto Build of configuration Debug for project AXI_DMA_PL_PS_TEST ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/dma_intr.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/dma_intr.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../AXI_DMA_PL_PS_TEST_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/dma_intr.d" -MT"src/dma_intr.o" -o "src/dma_intr.o" "../src/dma_intr.c"
+../src/dma_intr.c:100:13: warning: 'DMA_TxIntrHandler' defined but not used [-Wunused-function]
+ static void DMA_TxIntrHandler(void *Callback)
+             ^~~~~~~~~~~~~~~~~
+'Finished building: ../src/dma_intr.c'
+' '
+'Building target: AXI_DMA_PL_PS_TEST.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../AXI_DMA_PL_PS_TEST_bsp/ps7_cortexa9_0/lib -o "AXI_DMA_PL_PS_TEST.elf"  ./src/dma_intr.o ./src/main.o ./src/sys_intr.o ./src/timer_intr.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: AXI_DMA_PL_PS_TEST.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size AXI_DMA_PL_PS_TEST.elf  |tee "AXI_DMA_PL_PS_TEST.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  40756	   3860	  24584	  69200	  10e50	AXI_DMA_PL_PS_TEST.elf
+'Finished building: AXI_DMA_PL_PS_TEST.elf.size'
+' '
+21:17:36 **** Incremental Build of configuration Debug for project AXI_DMA_PL_PS_TEST ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+21:20:12 **** Incremental Build of configuration Debug for project AXI_DMA_PL_PS_TEST ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+21:21:02 **** Clean-only build of configuration Debug for project AXI_DMA_PL_PS_TEST ****
+make clean 
+rm -rf  ./src/dma_intr.o ./src/main.o ./src/sys_intr.o ./src/timer_intr.o  ./src/dma_intr.d ./src/main.d ./src/sys_intr.d ./src/timer_intr.d  AXI_DMA_PL_PS_TEST.elf.size  AXI_DMA_PL_PS_TEST.elf
+' '
+
+****  of configuration Debug for project AXI_DMA_PL_PS_TEST ****
+
+Nothing to build for project AXI_DMA_PL_PS_TEST
+21:21:22 **** Auto Build of configuration Debug for project AXI_DMA_PL_PS_TEST ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/dma_intr.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/dma_intr.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../AXI_DMA_PL_PS_TEST_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/dma_intr.d" -MT"src/dma_intr.o" -o "src/dma_intr.o" "../src/dma_intr.c"
+'Finished building: ../src/dma_intr.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../AXI_DMA_PL_PS_TEST_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:15:19: fatal error: xgpio.h: No such file or directory
+ #include "xgpio.h"
+                   ^
+compilation terminated.
+make: *** [src/main.o] ´íÎó 1
+21:22:10 **** Auto Build of configuration Debug for project AXI_DMA_PL_PS_TEST ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../AXI_DMA_PL_PS_TEST_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:40:8: error: unknown type name 'XGpio'
+ static XGpio Gpio;
+        ^~~~~
+../src/main.c: In function 'axi_dma_test':
+../src/main.c:110:26: warning: format '%d' expects argument of type 'int', but argument 3 has type 'u32 {aka volatile long unsigned int}' [-Wformat=]
+    sprintf(oled_str,"RX=%d",RX_success);
+                          ^
+../src/main.c:118:4: warning: implicit declaration of function 'print_message' [-Wimplicit-function-declaration]
+    print_message(oled_str,1);
+    ^~~~~~~~~~~~~
+../src/main.c:120:26: warning: format '%d' expects argument of type 'int', but argument 3 has type 'u32 {aka volatile long unsigned int}' [-Wformat=]
+    sprintf(oled_str,"TX=%d",TX_success);
+                          ^
+../src/main.c:146:2: warning: implicit declaration of function 'DMA_DisableIntrSystem' [-Wimplicit-function-declaration]
+  DMA_DisableIntrSystem(&Intc, TX_INTR_ID, RX_INTR_ID);
+  ^~~~~~~~~~~~~~~~~~~~~
+../src/main.c: In function 'init_intr_sys':
+../src/main.c:159:2: warning: implicit declaration of function 'Setup_Intr_Exception' [-Wimplicit-function-declaration]
+  Setup_Intr_Exception(&Intc);
+  ^~~~~~~~~~~~~~~~~~~~
+../src/main.c:164:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+At top level:
+../src/main.c:40:14: warning: 'Gpio' defined but not used [-Wunused-variable]
+ static XGpio Gpio;
+              ^~~~
+make: *** [src/main.o] ´íÎó 1
+21:22:16 **** Auto Build of configuration Debug for project AXI_DMA_PL_PS_TEST ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../AXI_DMA_PL_PS_TEST_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'axi_dma_test':
+../src/main.c:110:26: warning: format '%d' expects argument of type 'int', but argument 3 has type 'u32 {aka volatile long unsigned int}' [-Wformat=]
+    sprintf(oled_str,"RX=%d",RX_success);
+                          ^
+../src/main.c:118:4: warning: implicit declaration of function 'print_message' [-Wimplicit-function-declaration]
+    print_message(oled_str,1);
+    ^~~~~~~~~~~~~
+../src/main.c:120:26: warning: format '%d' expects argument of type 'int', but argument 3 has type 'u32 {aka volatile long unsigned int}' [-Wformat=]
+    sprintf(oled_str,"TX=%d",TX_success);
+                          ^
+../src/main.c:146:2: warning: implicit declaration of function 'DMA_DisableIntrSystem' [-Wimplicit-function-declaration]
+  DMA_DisableIntrSystem(&Intc, TX_INTR_ID, RX_INTR_ID);
+  ^~~~~~~~~~~~~~~~~~~~~
+../src/main.c: In function 'init_intr_sys':
+../src/main.c:159:2: warning: implicit declaration of function 'Setup_Intr_Exception' [-Wimplicit-function-declaration]
+  Setup_Intr_Exception(&Intc);
+  ^~~~~~~~~~~~~~~~~~~~
+../src/main.c:164:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building file: ../src/sys_intr.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/sys_intr.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../AXI_DMA_PL_PS_TEST_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/sys_intr.d" -MT"src/sys_intr.o" -o "src/sys_intr.o" "../src/sys_intr.c"
+'Finished building: ../src/sys_intr.c'
+' '
+'Building file: ../src/timer_intr.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/timer_intr.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../AXI_DMA_PL_PS_TEST_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/timer_intr.d" -MT"src/timer_intr.o" -o "src/timer_intr.o" "../src/timer_intr.c"
+'Finished building: ../src/timer_intr.c'
+' '
+'Building target: AXI_DMA_PL_PS_TEST.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../AXI_DMA_PL_PS_TEST_bsp/ps7_cortexa9_0/lib -o "AXI_DMA_PL_PS_TEST.elf"  ./src/dma_intr.o ./src/main.o ./src/sys_intr.o ./src/timer_intr.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/main.o: In function `axi_dma_test':
+F:\ZYNQ7020\FPGA_EXAMPLE\AXI_DMA_PL_PS\AXI_DMA_PL_PS\AXI_DMA_PL_PS.sdk\AXI_DMA_PL_PS_TEST\Debug/../src/main.c:118: undefined reference to `print_message'
+F:\ZYNQ7020\FPGA_EXAMPLE\AXI_DMA_PL_PS\AXI_DMA_PL_PS\AXI_DMA_PL_PS.sdk\AXI_DMA_PL_PS_TEST\Debug/../src/main.c:122: undefined reference to `print_message'
+collect2.exe: error: ld returned 1 exit status
+make: *** [AXI_DMA_PL_PS_TEST.elf] ´íÎó 1
+21:22:29 **** Auto Build of configuration Debug for project AXI_DMA_PL_PS_TEST ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../AXI_DMA_PL_PS_TEST_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'axi_dma_test':
+../src/main.c:110:26: warning: format '%d' expects argument of type 'int', but argument 3 has type 'u32 {aka volatile long unsigned int}' [-Wformat=]
+    sprintf(oled_str,"RX=%d",RX_success);
+                          ^
+../src/main.c:120:26: warning: format '%d' expects argument of type 'int', but argument 3 has type 'u32 {aka volatile long unsigned int}' [-Wformat=]
+    sprintf(oled_str,"TX=%d",TX_success);
+                          ^
+../src/main.c:146:2: warning: implicit declaration of function 'DMA_DisableIntrSystem' [-Wimplicit-function-declaration]
+  DMA_DisableIntrSystem(&Intc, TX_INTR_ID, RX_INTR_ID);
+  ^~~~~~~~~~~~~~~~~~~~~
+../src/main.c: In function 'init_intr_sys':
+../src/main.c:159:2: warning: implicit declaration of function 'Setup_Intr_Exception' [-Wimplicit-function-declaration]
+  Setup_Intr_Exception(&Intc);
+  ^~~~~~~~~~~~~~~~~~~~
+../src/main.c:164:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building target: AXI_DMA_PL_PS_TEST.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../AXI_DMA_PL_PS_TEST_bsp/ps7_cortexa9_0/lib -o "AXI_DMA_PL_PS_TEST.elf"  ./src/dma_intr.o ./src/main.o ./src/sys_intr.o ./src/timer_intr.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: AXI_DMA_PL_PS_TEST.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size AXI_DMA_PL_PS_TEST.elf  |tee "AXI_DMA_PL_PS_TEST.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81912	   4252	  25312	 111476	  1b374	AXI_DMA_PL_PS_TEST.elf
+'Finished building: AXI_DMA_PL_PS_TEST.elf.size'
+' '
+21:22:33 **** Incremental Build of configuration Debug for project AXI_DMA_PL_PS_TEST ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+21:24:47 **** Incremental Build of configuration Debug for project AXI_DMA_PL_PS_TEST ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+21:26:09 **** Incremental Build of configuration Debug for project AXI_DMA_PL_PS_TEST ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+21:28:15 **** Incremental Build of configuration Debug for project AXI_DMA_PL_PS_TEST ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+21:28:50 **** Incremental Build of configuration Debug for project AXI_DMA_PL_PS_TEST ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+21:32:11 **** Incremental Build of configuration Debug for project AXI_DMA_PL_PS_TEST ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+21:33:54 **** Incremental Build of configuration Debug for project AXI_DMA_PL_PS_TEST ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+21:50:27 **** Auto Build of configuration Debug for project AXI_DMA_PL_PS_TEST ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/dma_intr.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/dma_intr.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../AXI_DMA_PL_PS_TEST_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/dma_intr.d" -MT"src/dma_intr.o" -o "src/dma_intr.o" "../src/dma_intr.c"
+'Finished building: ../src/dma_intr.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../AXI_DMA_PL_PS_TEST_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'axi_dma_test':
+../src/main.c:110:26: warning: format '%d' expects argument of type 'int', but argument 3 has type 'u32 {aka volatile long unsigned int}' [-Wformat=]
+    sprintf(oled_str,"RX=%d",RX_success);
+                          ^
+../src/main.c:120:26: warning: format '%d' expects argument of type 'int', but argument 3 has type 'u32 {aka volatile long unsigned int}' [-Wformat=]
+    sprintf(oled_str,"TX=%d",TX_success);
+                          ^
+../src/main.c:146:2: warning: implicit declaration of function 'DMA_DisableIntrSystem' [-Wimplicit-function-declaration]
+  DMA_DisableIntrSystem(&Intc, TX_INTR_ID, RX_INTR_ID);
+  ^~~~~~~~~~~~~~~~~~~~~
+../src/main.c: In function 'init_intr_sys':
+../src/main.c:159:2: warning: implicit declaration of function 'Setup_Intr_Exception' [-Wimplicit-function-declaration]
+  Setup_Intr_Exception(&Intc);
+  ^~~~~~~~~~~~~~~~~~~~
+../src/main.c:164:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building target: AXI_DMA_PL_PS_TEST.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../AXI_DMA_PL_PS_TEST_bsp/ps7_cortexa9_0/lib -o "AXI_DMA_PL_PS_TEST.elf"  ./src/dma_intr.o ./src/main.o ./src/sys_intr.o ./src/timer_intr.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: AXI_DMA_PL_PS_TEST.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size AXI_DMA_PL_PS_TEST.elf  |tee "AXI_DMA_PL_PS_TEST.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81912	   4252	  25312	 111476	  1b374	AXI_DMA_PL_PS_TEST.elf
+'Finished building: AXI_DMA_PL_PS_TEST.elf.size'
+' '
+21:52:36 **** Auto Build of configuration Debug for project AXI_DMA_PL_PS_TEST ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../AXI_DMA_PL_PS_TEST_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'axi_dma_test':
+../src/main.c:110:26: warning: format '%d' expects argument of type 'int', but argument 3 has type 'u32 {aka volatile long unsigned int}' [-Wformat=]
+    sprintf(oled_str,"RX=%d",RX_success);
+                          ^
+../src/main.c:120:26: warning: format '%d' expects argument of type 'int', but argument 3 has type 'u32 {aka volatile long unsigned int}' [-Wformat=]
+    sprintf(oled_str,"TX=%d",TX_success);
+                          ^
+../src/main.c:146:2: warning: implicit declaration of function 'DMA_DisableIntrSystem' [-Wimplicit-function-declaration]
+  DMA_DisableIntrSystem(&Intc, TX_INTR_ID, RX_INTR_ID);
+  ^~~~~~~~~~~~~~~~~~~~~
+../src/main.c: In function 'init_intr_sys':
+../src/main.c:159:2: warning: implicit declaration of function 'Setup_Intr_Exception' [-Wimplicit-function-declaration]
+  Setup_Intr_Exception(&Intc);
+  ^~~~~~~~~~~~~~~~~~~~
+../src/main.c:164:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building target: AXI_DMA_PL_PS_TEST.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../AXI_DMA_PL_PS_TEST_bsp/ps7_cortexa9_0/lib -o "AXI_DMA_PL_PS_TEST.elf"  ./src/dma_intr.o ./src/main.o ./src/sys_intr.o ./src/timer_intr.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: AXI_DMA_PL_PS_TEST.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size AXI_DMA_PL_PS_TEST.elf  |tee "AXI_DMA_PL_PS_TEST.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81912	   4252	  25312	 111476	  1b374	AXI_DMA_PL_PS_TEST.elf
+'Finished building: AXI_DMA_PL_PS_TEST.elf.size'
+' '
+21:52:47 **** Incremental Build of configuration Debug for project AXI_DMA_PL_PS_TEST ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/dma_intr.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/dma_intr.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../AXI_DMA_PL_PS_TEST_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/dma_intr.d" -MT"src/dma_intr.o" -o "src/dma_intr.o" "../src/dma_intr.c"
+'Finished building: ../src/dma_intr.c'
+' '
+'Building target: AXI_DMA_PL_PS_TEST.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../AXI_DMA_PL_PS_TEST_bsp/ps7_cortexa9_0/lib -o "AXI_DMA_PL_PS_TEST.elf"  ./src/dma_intr.o ./src/main.o ./src/sys_intr.o ./src/timer_intr.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: AXI_DMA_PL_PS_TEST.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size AXI_DMA_PL_PS_TEST.elf  |tee "AXI_DMA_PL_PS_TEST.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81912	   4252	  25312	 111476	  1b374	AXI_DMA_PL_PS_TEST.elf
+'Finished building: AXI_DMA_PL_PS_TEST.elf.size'
+' '
+22:17:16 **** Auto Build of configuration Debug for project AXI_DMA_PL_PS_TEST ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../AXI_DMA_PL_PS_TEST_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'axi_dma_test':
+../src/main.c:110:26: warning: format '%d' expects argument of type 'int', but argument 3 has type 'u32 {aka volatile long unsigned int}' [-Wformat=]
+    sprintf(oled_str,"RX=%d",RX_success);
+                          ^
+../src/main.c:120:26: warning: format '%d' expects argument of type 'int', but argument 3 has type 'u32 {aka volatile long unsigned int}' [-Wformat=]
+    sprintf(oled_str,"TX=%d",TX_success);
+                          ^
+../src/main.c:146:2: warning: implicit declaration of function 'DMA_DisableIntrSystem' [-Wimplicit-function-declaration]
+  DMA_DisableIntrSystem(&Intc, TX_INTR_ID, RX_INTR_ID);
+  ^~~~~~~~~~~~~~~~~~~~~
+../src/main.c: In function 'init_intr_sys':
+../src/main.c:159:2: warning: implicit declaration of function 'Setup_Intr_Exception' [-Wimplicit-function-declaration]
+  Setup_Intr_Exception(&Intc);
+  ^~~~~~~~~~~~~~~~~~~~
+../src/main.c:164:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building target: AXI_DMA_PL_PS_TEST.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../AXI_DMA_PL_PS_TEST_bsp/ps7_cortexa9_0/lib -o "AXI_DMA_PL_PS_TEST.elf"  ./src/dma_intr.o ./src/main.o ./src/sys_intr.o ./src/timer_intr.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: AXI_DMA_PL_PS_TEST.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size AXI_DMA_PL_PS_TEST.elf  |tee "AXI_DMA_PL_PS_TEST.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81912	   4252	  25312	 111476	  1b374	AXI_DMA_PL_PS_TEST.elf
+'Finished building: AXI_DMA_PL_PS_TEST.elf.size'
+' '
+22:17:23 **** Incremental Build of configuration Debug for project AXI_DMA_PL_PS_TEST ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+23:44:34 **** Auto Build of configuration Debug for project AXI_DMA_PL_PS_TEST ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../AXI_DMA_PL_PS_TEST_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'axi_dma_test':
+../src/main.c:51:10: error: 'oled_str' undeclared (first use in this function)
+  sprintf(oled_str,"PKT_LEN=%d",MAX_PKT_LEN);
+          ^~~~~~~~
+../src/main.c:51:10: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c:141:2: warning: implicit declaration of function 'DMA_DisableIntrSystem' [-Wimplicit-function-declaration]
+  DMA_DisableIntrSystem(&Intc, TX_INTR_ID, RX_INTR_ID);
+  ^~~~~~~~~~~~~~~~~~~~~
+../src/main.c: In function 'init_intr_sys':
+../src/main.c:154:2: warning: implicit declaration of function 'Setup_Intr_Exception' [-Wimplicit-function-declaration]
+  Setup_Intr_Exception(&Intc);
+  ^~~~~~~~~~~~~~~~~~~~
+../src/main.c:159:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/main.o] ´íÎó 1
+23:44:43 **** Auto Build of configuration Debug for project AXI_DMA_PL_PS_TEST ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../AXI_DMA_PL_PS_TEST_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'axi_dma_test':
+../src/main.c:101:12: error: 'oled_str' undeclared (first use in this function)
+    sprintf(oled_str,"RX=%d",RX_success);
+            ^~~~~~~~
+../src/main.c:101:12: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c:137:2: warning: implicit declaration of function 'DMA_DisableIntrSystem' [-Wimplicit-function-declaration]
+  DMA_DisableIntrSystem(&Intc, TX_INTR_ID, RX_INTR_ID);
+  ^~~~~~~~~~~~~~~~~~~~~
+../src/main.c: In function 'init_intr_sys':
+../src/main.c:150:2: warning: implicit declaration of function 'Setup_Intr_Exception' [-Wimplicit-function-declaration]
+  Setup_Intr_Exception(&Intc);
+  ^~~~~~~~~~~~~~~~~~~~
+../src/main.c:155:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/main.o] ´íÎó 1
+23:45:10 **** Auto Build of configuration Debug for project AXI_DMA_PL_PS_TEST ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../AXI_DMA_PL_PS_TEST_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'axi_dma_test':
+../src/main.c:101:24: error: 'oled_str' undeclared (first use in this function)
+    xil_printf("%s\r\n",oled_str);
+                        ^~~~~~~~
+../src/main.c:101:24: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c:135:2: warning: implicit declaration of function 'DMA_DisableIntrSystem' [-Wimplicit-function-declaration]
+  DMA_DisableIntrSystem(&Intc, TX_INTR_ID, RX_INTR_ID);
+  ^~~~~~~~~~~~~~~~~~~~~
+../src/main.c: In function 'init_intr_sys':
+../src/main.c:148:2: warning: implicit declaration of function 'Setup_Intr_Exception' [-Wimplicit-function-declaration]
+  Setup_Intr_Exception(&Intc);
+  ^~~~~~~~~~~~~~~~~~~~
+../src/main.c:153:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/main.o] ´íÎó 1
+23:45:40 **** Auto Build of configuration Debug for project AXI_DMA_PL_PS_TEST ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../AXI_DMA_PL_PS_TEST_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'axi_dma_test':
+../src/main.c:102:12: error: 'oled_str' undeclared (first use in this function)
+    sprintf(oled_str,"RX_sp=%.2fMB/S",speed_rx);
+            ^~~~~~~~
+../src/main.c:102:12: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c:122:2: warning: implicit declaration of function 'DMA_DisableIntrSystem' [-Wimplicit-function-declaration]
+  DMA_DisableIntrSystem(&Intc, TX_INTR_ID, RX_INTR_ID);
+  ^~~~~~~~~~~~~~~~~~~~~
+../src/main.c: In function 'init_intr_sys':
+../src/main.c:135:2: warning: implicit declaration of function 'Setup_Intr_Exception' [-Wimplicit-function-declaration]
+  Setup_Intr_Exception(&Intc);
+  ^~~~~~~~~~~~~~~~~~~~
+../src/main.c:140:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/main.o] ´íÎó 1
+23:45:49 **** Auto Build of configuration Debug for project AXI_DMA_PL_PS_TEST ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../AXI_DMA_PL_PS_TEST_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'axi_dma_test':
+../src/main.c:118:2: warning: implicit declaration of function 'DMA_DisableIntrSystem' [-Wimplicit-function-declaration]
+  DMA_DisableIntrSystem(&Intc, TX_INTR_ID, RX_INTR_ID);
+  ^~~~~~~~~~~~~~~~~~~~~
+../src/main.c: In function 'init_intr_sys':
+../src/main.c:131:2: warning: implicit declaration of function 'Setup_Intr_Exception' [-Wimplicit-function-declaration]
+  Setup_Intr_Exception(&Intc);
+  ^~~~~~~~~~~~~~~~~~~~
+../src/main.c:136:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building target: AXI_DMA_PL_PS_TEST.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../AXI_DMA_PL_PS_TEST_bsp/ps7_cortexa9_0/lib -o "AXI_DMA_PL_PS_TEST.elf"  ./src/dma_intr.o ./src/main.o ./src/sys_intr.o ./src/timer_intr.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: AXI_DMA_PL_PS_TEST.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size AXI_DMA_PL_PS_TEST.elf  |tee "AXI_DMA_PL_PS_TEST.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  41012	   3860	  24584	  69456	  10f50	AXI_DMA_PL_PS_TEST.elf
+'Finished building: AXI_DMA_PL_PS_TEST.elf.size'
+' '
+23:46:02 **** Auto Build of configuration Debug for project AXI_DMA_PL_PS_TEST ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../AXI_DMA_PL_PS_TEST_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'axi_dma_test':
+../src/main.c:118:2: warning: implicit declaration of function 'DMA_DisableIntrSystem' [-Wimplicit-function-declaration]
+  DMA_DisableIntrSystem(&Intc, TX_INTR_ID, RX_INTR_ID);
+  ^~~~~~~~~~~~~~~~~~~~~
+../src/main.c: In function 'init_intr_sys':
+../src/main.c:131:2: warning: implicit declaration of function 'Setup_Intr_Exception' [-Wimplicit-function-declaration]
+  Setup_Intr_Exception(&Intc);
+  ^~~~~~~~~~~~~~~~~~~~
+../src/main.c:136:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building target: AXI_DMA_PL_PS_TEST.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../AXI_DMA_PL_PS_TEST_bsp/ps7_cortexa9_0/lib -o "AXI_DMA_PL_PS_TEST.elf"  ./src/dma_intr.o ./src/main.o ./src/sys_intr.o ./src/timer_intr.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: AXI_DMA_PL_PS_TEST.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size AXI_DMA_PL_PS_TEST.elf  |tee "AXI_DMA_PL_PS_TEST.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  41012	   3860	  24584	  69456	  10f50	AXI_DMA_PL_PS_TEST.elf
+'Finished building: AXI_DMA_PL_PS_TEST.elf.size'
+' '
+23:46:07 **** Incremental Build of configuration Debug for project AXI_DMA_PL_PS_TEST ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+23:49:32 **** Auto Build of configuration Debug for project AXI_DMA_PL_PS_TEST ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../AXI_DMA_PL_PS_TEST_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'axi_dma_test':
+../src/main.c:119:2: warning: implicit declaration of function 'DMA_DisableIntrSystem' [-Wimplicit-function-declaration]
+  DMA_DisableIntrSystem(&Intc, TX_INTR_ID, RX_INTR_ID);
+  ^~~~~~~~~~~~~~~~~~~~~
+../src/main.c: In function 'init_intr_sys':
+../src/main.c:132:2: warning: implicit declaration of function 'Setup_Intr_Exception' [-Wimplicit-function-declaration]
+  Setup_Intr_Exception(&Intc);
+  ^~~~~~~~~~~~~~~~~~~~
+../src/main.c:137:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building target: AXI_DMA_PL_PS_TEST.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../AXI_DMA_PL_PS_TEST_bsp/ps7_cortexa9_0/lib -o "AXI_DMA_PL_PS_TEST.elf"  ./src/dma_intr.o ./src/main.o ./src/sys_intr.o ./src/timer_intr.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: AXI_DMA_PL_PS_TEST.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size AXI_DMA_PL_PS_TEST.elf  |tee "AXI_DMA_PL_PS_TEST.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  41108	   3860	  24584	  69552	  10fb0	AXI_DMA_PL_PS_TEST.elf
+'Finished building: AXI_DMA_PL_PS_TEST.elf.size'
+' '
+23:49:37 **** Incremental Build of configuration Debug for project AXI_DMA_PL_PS_TEST ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+23:52:54 **** Auto Build of configuration Debug for project AXI_DMA_PL_PS_TEST ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../AXI_DMA_PL_PS_TEST_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'axi_dma_test':
+../src/main.c:101:35: error: 'string' undeclared (first use in this function)
+    xil_printf("RX_sp=%sMB/S\r\n",(string)speed_rx);
+                                   ^~~~~~
+../src/main.c:101:35: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c:101:42: error: expected ')' before 'speed_rx'
+    xil_printf("RX_sp=%sMB/S\r\n",(string)speed_rx);
+                                          ^~~~~~~~
+../src/main.c:103:42: error: expected ')' before 'speed_tx'
+    xil_printf("TX_sp=%sMB/S\r\n",(string)speed_tx);
+                                          ^~~~~~~~
+../src/main.c:119:2: warning: implicit declaration of function 'DMA_DisableIntrSystem' [-Wimplicit-function-declaration]
+  DMA_DisableIntrSystem(&Intc, TX_INTR_ID, RX_INTR_ID);
+  ^~~~~~~~~~~~~~~~~~~~~
+../src/main.c: In function 'init_intr_sys':
+../src/main.c:132:2: warning: implicit declaration of function 'Setup_Intr_Exception' [-Wimplicit-function-declaration]
+  Setup_Intr_Exception(&Intc);
+  ^~~~~~~~~~~~~~~~~~~~
+../src/main.c:137:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/main.o] ´íÎó 1
+23:58:00 **** Auto Build of configuration Debug for project AXI_DMA_PL_PS_TEST ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../AXI_DMA_PL_PS_TEST_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'axi_dma_test':
+../src/main.c:104:4: warning: implicit declaration of function 'sprinf' [-Wimplicit-function-declaration]
+    sprinf(oled_str,"PKT_LEN=%d",MAX_PKT_LEN);
+    ^~~~~~
+../src/main.c:104:11: error: 'oled_str' undeclared (first use in this function)
+    sprinf(oled_str,"PKT_LEN=%d",MAX_PKT_LEN);
+           ^~~~~~~~
+../src/main.c:104:11: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c:120:2: warning: implicit declaration of function 'DMA_DisableIntrSystem' [-Wimplicit-function-declaration]
+  DMA_DisableIntrSystem(&Intc, TX_INTR_ID, RX_INTR_ID);
+  ^~~~~~~~~~~~~~~~~~~~~
+../src/main.c: In function 'init_intr_sys':
+../src/main.c:133:2: warning: implicit declaration of function 'Setup_Intr_Exception' [-Wimplicit-function-declaration]
+  Setup_Intr_Exception(&Intc);
+  ^~~~~~~~~~~~~~~~~~~~
+../src/main.c:138:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/main.o] ´íÎó 1
+23:58:41 **** Auto Build of configuration Debug for project AXI_DMA_PL_PS_TEST ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../AXI_DMA_PL_PS_TEST_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:15:19: fatal error: xgpio.h: No such file or directory
+ #include "xgpio.h"
+                   ^
+compilation terminated.
+make: *** [src/main.o] ´íÎó 1
+00:03:41 **** Auto Build of configuration Debug for project AXI_DMA_PL_PS_TEST ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../AXI_DMA_PL_PS_TEST_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'axi_dma_test':
+../src/main.c:121:2: warning: implicit declaration of function 'DMA_DisableIntrSystem' [-Wimplicit-function-declaration]
+  DMA_DisableIntrSystem(&Intc, TX_INTR_ID, RX_INTR_ID);
+  ^~~~~~~~~~~~~~~~~~~~~
+../src/main.c: In function 'init_intr_sys':
+../src/main.c:134:2: warning: implicit declaration of function 'Setup_Intr_Exception' [-Wimplicit-function-declaration]
+  Setup_Intr_Exception(&Intc);
+  ^~~~~~~~~~~~~~~~~~~~
+../src/main.c:139:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building target: AXI_DMA_PL_PS_TEST.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../AXI_DMA_PL_PS_TEST_bsp/ps7_cortexa9_0/lib -o "AXI_DMA_PL_PS_TEST.elf"  ./src/dma_intr.o ./src/main.o ./src/sys_intr.o ./src/timer_intr.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: AXI_DMA_PL_PS_TEST.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size AXI_DMA_PL_PS_TEST.elf  |tee "AXI_DMA_PL_PS_TEST.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81744	   4252	  25312	 111308	  1b2cc	AXI_DMA_PL_PS_TEST.elf
+'Finished building: AXI_DMA_PL_PS_TEST.elf.size'
+' '
+00:04:01 **** Incremental Build of configuration Debug for project AXI_DMA_PL_PS_TEST ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+00:06:19 **** Auto Build of configuration Debug for project AXI_DMA_PL_PS_TEST ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../AXI_DMA_PL_PS_TEST_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'axi_dma_test':
+../src/main.c:100:32: warning: format '%d' expects argument of type 'int', but argument 3 has type 'u32 {aka volatile long unsigned int}' [-Wformat=]
+    sprintf(string_display,"RX=%d",RX_success);
+                                ^
+../src/main.c:106:32: warning: format '%d' expects argument of type 'int', but argument 3 has type 'u32 {aka volatile long unsigned int}' [-Wformat=]
+    sprintf(string_display,"RX=%d",TX_success);
+                                ^
+../src/main.c:126:2: warning: implicit declaration of function 'DMA_DisableIntrSystem' [-Wimplicit-function-declaration]
+  DMA_DisableIntrSystem(&Intc, TX_INTR_ID, RX_INTR_ID);
+  ^~~~~~~~~~~~~~~~~~~~~
+../src/main.c: In function 'init_intr_sys':
+../src/main.c:139:2: warning: implicit declaration of function 'Setup_Intr_Exception' [-Wimplicit-function-declaration]
+  Setup_Intr_Exception(&Intc);
+  ^~~~~~~~~~~~~~~~~~~~
+../src/main.c:144:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building target: AXI_DMA_PL_PS_TEST.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../AXI_DMA_PL_PS_TEST_bsp/ps7_cortexa9_0/lib -o "AXI_DMA_PL_PS_TEST.elf"  ./src/dma_intr.o ./src/main.o ./src/sys_intr.o ./src/timer_intr.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: AXI_DMA_PL_PS_TEST.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size AXI_DMA_PL_PS_TEST.elf  |tee "AXI_DMA_PL_PS_TEST.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81880	   4252	  25312	 111444	  1b354	AXI_DMA_PL_PS_TEST.elf
+'Finished building: AXI_DMA_PL_PS_TEST.elf.size'
+' '
+00:06:25 **** Incremental Build of configuration Debug for project AXI_DMA_PL_PS_TEST ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+00:11:10 **** Auto Build of configuration Debug for project AXI_DMA_PL_PS_TEST ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../AXI_DMA_PL_PS_TEST_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'axi_dma_test':
+../src/main.c:98:32: warning: format '%d' expects argument of type 'int', but argument 3 has type 'u32 {aka volatile long unsigned int}' [-Wformat=]
+    sprintf(string_display,"RX=%d",RX_success);
+                                ^
+../src/main.c:104:32: warning: format '%d' expects argument of type 'int', but argument 3 has type 'u32 {aka volatile long unsigned int}' [-Wformat=]
+    sprintf(string_display,"RX=%d",TX_success);
+                                ^
+../src/main.c:124:2: warning: implicit declaration of function 'DMA_DisableIntrSystem' [-Wimplicit-function-declaration]
+  DMA_DisableIntrSystem(&Intc, TX_INTR_ID, RX_INTR_ID);
+  ^~~~~~~~~~~~~~~~~~~~~
+../src/main.c: In function 'init_intr_sys':
+../src/main.c:137:2: warning: implicit declaration of function 'Setup_Intr_Exception' [-Wimplicit-function-declaration]
+  Setup_Intr_Exception(&Intc);
+  ^~~~~~~~~~~~~~~~~~~~
+../src/main.c:142:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building target: AXI_DMA_PL_PS_TEST.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../AXI_DMA_PL_PS_TEST_bsp/ps7_cortexa9_0/lib -o "AXI_DMA_PL_PS_TEST.elf"  ./src/dma_intr.o ./src/main.o ./src/sys_intr.o ./src/timer_intr.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: AXI_DMA_PL_PS_TEST.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size AXI_DMA_PL_PS_TEST.elf  |tee "AXI_DMA_PL_PS_TEST.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81872	   4252	  25312	 111436	  1b34c	AXI_DMA_PL_PS_TEST.elf
+'Finished building: AXI_DMA_PL_PS_TEST.elf.size'
+' '
+00:14:43 **** Auto Build of configuration Debug for project AXI_DMA_PL_PS_TEST ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../AXI_DMA_PL_PS_TEST_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'axi_dma_test':
+../src/main.c:98:32: warning: format '%d' expects argument of type 'int', but argument 3 has type 'u32 {aka volatile long unsigned int}' [-Wformat=]
+    sprintf(string_display,"RX=%d",RX_success);
+                                ^
+../src/main.c:104:32: warning: format '%d' expects argument of type 'int', but argument 3 has type 'u32 {aka volatile long unsigned int}' [-Wformat=]
+    sprintf(string_display,"TX=%d",TX_success);
+                                ^
+../src/main.c:124:2: warning: implicit declaration of function 'DMA_DisableIntrSystem' [-Wimplicit-function-declaration]
+  DMA_DisableIntrSystem(&Intc, TX_INTR_ID, RX_INTR_ID);
+  ^~~~~~~~~~~~~~~~~~~~~
+../src/main.c: In function 'init_intr_sys':
+../src/main.c:137:2: warning: implicit declaration of function 'Setup_Intr_Exception' [-Wimplicit-function-declaration]
+  Setup_Intr_Exception(&Intc);
+  ^~~~~~~~~~~~~~~~~~~~
+../src/main.c:142:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building target: AXI_DMA_PL_PS_TEST.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../AXI_DMA_PL_PS_TEST_bsp/ps7_cortexa9_0/lib -o "AXI_DMA_PL_PS_TEST.elf"  ./src/dma_intr.o ./src/main.o ./src/sys_intr.o ./src/timer_intr.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: AXI_DMA_PL_PS_TEST.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size AXI_DMA_PL_PS_TEST.elf  |tee "AXI_DMA_PL_PS_TEST.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81896	   4252	  25312	 111460	  1b364	AXI_DMA_PL_PS_TEST.elf
+'Finished building: AXI_DMA_PL_PS_TEST.elf.size'
+' '

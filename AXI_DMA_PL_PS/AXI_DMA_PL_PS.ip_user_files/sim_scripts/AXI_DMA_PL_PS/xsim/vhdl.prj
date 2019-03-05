@@ -1,0 +1,6 @@
+vhdl xil_defaultlib  \
+"../../../../AXI_DMA_PL_PS.srcs/sources_1/bd/AXI_DMA_PL_PS/ip/AXI_DMA_PL_PS_axi_dma_0_0/sim/AXI_DMA_PL_PS_axi_dma_0_0.vhd" \
+"../../../../AXI_DMA_PL_PS.srcs/sources_1/bd/AXI_DMA_PL_PS/ip/AXI_DMA_PL_PS_axi_smc_0/bd_0/ip/ip_1/sim/bd_f8a2_psr_aclk_0.vhd" \
+"../../../../AXI_DMA_PL_PS.srcs/sources_1/bd/AXI_DMA_PL_PS/ip/AXI_DMA_PL_PS_rst_ps7_0_100M_0/sim/AXI_DMA_PL_PS_rst_ps7_0_100M_0.vhd" \
+
+nosort

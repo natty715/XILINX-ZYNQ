@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Sun Mar  3 18:00:49 2019
+# Process ID: 7332
+# Current directory: F:/ZYNQ7020/FPGA_EXAMPLE/AXI_DMA_PL_PS/AXI_DMA_PL_PS/AXI_DMA_PL_PS.runs/AXI_DMA_PL_PS_axis_data_fifo_1_0_synth_1
+# Command line: vivado.exe -log AXI_DMA_PL_PS_axis_data_fifo_1_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source AXI_DMA_PL_PS_axis_data_fifo_1_0.tcl
+# Log file: F:/ZYNQ7020/FPGA_EXAMPLE/AXI_DMA_PL_PS/AXI_DMA_PL_PS/AXI_DMA_PL_PS.runs/AXI_DMA_PL_PS_axis_data_fifo_1_0_synth_1/AXI_DMA_PL_PS_axis_data_fifo_1_0.vds
+# Journal file: F:/ZYNQ7020/FPGA_EXAMPLE/AXI_DMA_PL_PS/AXI_DMA_PL_PS/AXI_DMA_PL_PS.runs/AXI_DMA_PL_PS_axis_data_fifo_1_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source AXI_DMA_PL_PS_axis_data_fifo_1_0.tcl -notrace
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP AXI_DMA_PL_PS_axis_data_fifo_1_0, cache-ID = 2c70cca7227a348d.
+INFO: [Common 17-206] Exiting Vivado at Sun Mar  3 18:01:06 2019...
