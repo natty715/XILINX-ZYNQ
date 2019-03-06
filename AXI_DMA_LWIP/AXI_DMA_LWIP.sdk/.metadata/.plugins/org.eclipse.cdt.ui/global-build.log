@@ -1,0 +1,71 @@
+22:08:05 **** Auto Build of configuration Debug for project AXI_DMA_LWIP ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/dma_intr.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/dma_intr.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../AXI_DMA_LWIP_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/dma_intr.d" -MT"src/dma_intr.o" -o "src/dma_intr.o" "../src/dma_intr.c"
+../src/dma_intr.c: In function 'DMA_RxIntrHandler':
+../src/dma_intr.c:175:6: warning: unused variable 'TimeOut' [-Wunused-variable]
+  int TimeOut;
+      ^~~~~~~
+At top level:
+../src/dma_intr.c:99:13: warning: 'DMA_TxIntrHandler' defined but not used [-Wunused-function]
+ static void DMA_TxIntrHandler(void *Callback)
+             ^~~~~~~~~~~~~~~~~
+'Finished building: ../src/dma_intr.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../AXI_DMA_LWIP_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'init_intr_sys':
+../src/main.c:41:2: warning: implicit declaration of function 'Setup_Intr_Exception' [-Wimplicit-function-declaration]
+  Setup_Intr_Exception(&Intc);
+  ^~~~~~~~~~~~~~~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:73:2: warning: implicit declaration of function 'lwip_init' [-Wimplicit-function-declaration]
+  lwip_init();
+  ^~~~~~~~~
+../src/main.c:111:4: warning: implicit declaration of function 'tcp_tmr' [-Wimplicit-function-declaration]
+    tcp_tmr();
+    ^~~~~~~
+../src/main.c:51:6: warning: unused variable 'Status' [-Wunused-variable]
+  int Status;
+      ^~~~~~
+../src/main.c: In function 'init_intr_sys':
+../src/main.c:46:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building file: ../src/tcp_transmission.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/tcp_transmission.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../AXI_DMA_LWIP_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/tcp_transmission.d" -MT"src/tcp_transmission.o" -o "src/tcp_transmission.o" "../src/tcp_transmission.c"
+'Finished building: ../src/tcp_transmission.c'
+' '
+'Building target: AXI_DMA_LWIP.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../AXI_DMA_LWIP_bsp/ps7_cortexa9_0/lib -o "AXI_DMA_LWIP.elf"  ./src/dma_intr.o ./src/main.o ./src/sys_intr.o ./src/tcp_transmission.o ./src/timer_intr.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: AXI_DMA_LWIP.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size AXI_DMA_LWIP.elf  |tee "AXI_DMA_LWIP.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 105052	   3900	9492784	9601736	 9282c8	AXI_DMA_LWIP.elf
+'Finished building: AXI_DMA_LWIP.elf.size'
+' '
+22:08:12 **** Incremental Build of configuration Debug for project AXI_DMA_LWIP ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+22:09:26 **** Incremental Build of configuration Debug for project AXI_DMA_LWIP ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+22:11:11 **** Incremental Build of configuration Debug for project AXI_DMA_LWIP ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.

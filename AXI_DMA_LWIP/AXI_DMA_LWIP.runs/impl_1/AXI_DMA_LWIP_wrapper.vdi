@@ -1,0 +1,566 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Mon Mar  4 23:52:32 2019
+# Process ID: 2800
+# Current directory: F:/ZYNQ7020/FPGA_EXAMPLE/AXI_DMA_LWIP/AXI_DMA_LWIP.runs/impl_1
+# Command line: vivado.exe -log AXI_DMA_LWIP_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source AXI_DMA_LWIP_wrapper.tcl -notrace
+# Log file: F:/ZYNQ7020/FPGA_EXAMPLE/AXI_DMA_LWIP/AXI_DMA_LWIP.runs/impl_1/AXI_DMA_LWIP_wrapper.vdi
+# Journal file: F:/ZYNQ7020/FPGA_EXAMPLE/AXI_DMA_LWIP/AXI_DMA_LWIP.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source AXI_DMA_LWIP_wrapper.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Xilinx_Vivado/Vivado/2017.4/data/ip'.
+add_files: Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 373.336 ; gain = 120.203
+Command: link_design -top AXI_DMA_LWIP_wrapper -part xc7z020clg400-2
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Project 1-454] Reading design checkpoint 'f:/ZYNQ7020/FPGA_EXAMPLE/AXI_DMA_LWIP/AXI_DMA_LWIP.srcs/sources_1/bd/AXI_DMA_LWIP/ip/AXI_DMA_LWIP_axi_dma_0_0/AXI_DMA_LWIP_axi_dma_0_0.dcp' for cell 'AXI_DMA_LWIP_i/axi_dma_0'
+INFO: [Project 1-454] Reading design checkpoint 'f:/ZYNQ7020/FPGA_EXAMPLE/AXI_DMA_LWIP/AXI_DMA_LWIP.srcs/sources_1/bd/AXI_DMA_LWIP/ip/AXI_DMA_LWIP_axi_smc_0/AXI_DMA_LWIP_axi_smc_0.dcp' for cell 'AXI_DMA_LWIP_i/axi_smc'
+INFO: [Project 1-454] Reading design checkpoint 'f:/ZYNQ7020/FPGA_EXAMPLE/AXI_DMA_LWIP/AXI_DMA_LWIP.srcs/sources_1/bd/AXI_DMA_LWIP/ip/AXI_DMA_LWIP_axis_data_fifo_0_0/AXI_DMA_LWIP_axis_data_fifo_0_0.dcp' for cell 'AXI_DMA_LWIP_i/axis_data_fifo_0'
+INFO: [Project 1-454] Reading design checkpoint 'f:/ZYNQ7020/FPGA_EXAMPLE/AXI_DMA_LWIP/AXI_DMA_LWIP.srcs/sources_1/bd/AXI_DMA_LWIP/ip/AXI_DMA_LWIP_processing_system7_0_0/AXI_DMA_LWIP_processing_system7_0_0.dcp' for cell 'AXI_DMA_LWIP_i/processing_system7_0'
+INFO: [Project 1-454] Reading design checkpoint 'f:/ZYNQ7020/FPGA_EXAMPLE/AXI_DMA_LWIP/AXI_DMA_LWIP.srcs/sources_1/bd/AXI_DMA_LWIP/ip/AXI_DMA_LWIP_rst_ps7_0_100M_0/AXI_DMA_LWIP_rst_ps7_0_100M_0.dcp' for cell 'AXI_DMA_LWIP_i/rst_ps7_0_100M'
+INFO: [Project 1-454] Reading design checkpoint 'f:/ZYNQ7020/FPGA_EXAMPLE/AXI_DMA_LWIP/AXI_DMA_LWIP.srcs/sources_1/bd/AXI_DMA_LWIP/ip/AXI_DMA_LWIP_system_ila_0_0/AXI_DMA_LWIP_system_ila_0_0.dcp' for cell 'AXI_DMA_LWIP_i/system_ila_0'
+INFO: [Project 1-454] Reading design checkpoint 'f:/ZYNQ7020/FPGA_EXAMPLE/AXI_DMA_LWIP/AXI_DMA_LWIP.srcs/sources_1/bd/AXI_DMA_LWIP/ip/AXI_DMA_LWIP_auto_pc_0/AXI_DMA_LWIP_auto_pc_0.dcp' for cell 'AXI_DMA_LWIP_i/ps7_0_axi_periph/s00_couplers/auto_pc'
+INFO: [Netlist 29-17] Analyzing 236 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2017.4
+INFO: [Device 21-403] Loading part xc7z020clg400-2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Chipscope 16-324] Core: AXI_DMA_LWIP_i/system_ila_0/inst/ila_lib UUID: 574a5aa8-ae49-5145-b0a0-bd4b6353690e 
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Parsing XDC File [f:/ZYNQ7020/FPGA_EXAMPLE/AXI_DMA_LWIP/AXI_DMA_LWIP.srcs/sources_1/bd/AXI_DMA_LWIP/ip/AXI_DMA_LWIP_processing_system7_0_0/AXI_DMA_LWIP_processing_system7_0_0.xdc] for cell 'AXI_DMA_LWIP_i/processing_system7_0/inst'
+Finished Parsing XDC File [f:/ZYNQ7020/FPGA_EXAMPLE/AXI_DMA_LWIP/AXI_DMA_LWIP.srcs/sources_1/bd/AXI_DMA_LWIP/ip/AXI_DMA_LWIP_processing_system7_0_0/AXI_DMA_LWIP_processing_system7_0_0.xdc] for cell 'AXI_DMA_LWIP_i/processing_system7_0/inst'
+Parsing XDC File [f:/ZYNQ7020/FPGA_EXAMPLE/AXI_DMA_LWIP/AXI_DMA_LWIP.srcs/sources_1/bd/AXI_DMA_LWIP/ip/AXI_DMA_LWIP_axi_dma_0_0/AXI_DMA_LWIP_axi_dma_0_0.xdc] for cell 'AXI_DMA_LWIP_i/axi_dma_0/U0'
+Finished Parsing XDC File [f:/ZYNQ7020/FPGA_EXAMPLE/AXI_DMA_LWIP/AXI_DMA_LWIP.srcs/sources_1/bd/AXI_DMA_LWIP/ip/AXI_DMA_LWIP_axi_dma_0_0/AXI_DMA_LWIP_axi_dma_0_0.xdc] for cell 'AXI_DMA_LWIP_i/axi_dma_0/U0'
+Parsing XDC File [f:/ZYNQ7020/FPGA_EXAMPLE/AXI_DMA_LWIP/AXI_DMA_LWIP.srcs/sources_1/bd/AXI_DMA_LWIP/ip/AXI_DMA_LWIP_axis_data_fifo_0_0/AXI_DMA_LWIP_axis_data_fifo_0_0/AXI_DMA_LWIP_axis_data_fifo_0_0.xdc] for cell 'AXI_DMA_LWIP_i/axis_data_fifo_0/inst'
+Finished Parsing XDC File [f:/ZYNQ7020/FPGA_EXAMPLE/AXI_DMA_LWIP/AXI_DMA_LWIP.srcs/sources_1/bd/AXI_DMA_LWIP/ip/AXI_DMA_LWIP_axis_data_fifo_0_0/AXI_DMA_LWIP_axis_data_fifo_0_0/AXI_DMA_LWIP_axis_data_fifo_0_0.xdc] for cell 'AXI_DMA_LWIP_i/axis_data_fifo_0/inst'
+Parsing XDC File [f:/ZYNQ7020/FPGA_EXAMPLE/AXI_DMA_LWIP/AXI_DMA_LWIP.srcs/sources_1/bd/AXI_DMA_LWIP/ip/AXI_DMA_LWIP_axi_smc_0/bd_0/ip/ip_1/bd_bd24_psr_aclk_0_board.xdc] for cell 'AXI_DMA_LWIP_i/axi_smc/inst/clk_map/psr_aclk/U0'
+Finished Parsing XDC File [f:/ZYNQ7020/FPGA_EXAMPLE/AXI_DMA_LWIP/AXI_DMA_LWIP.srcs/sources_1/bd/AXI_DMA_LWIP/ip/AXI_DMA_LWIP_axi_smc_0/bd_0/ip/ip_1/bd_bd24_psr_aclk_0_board.xdc] for cell 'AXI_DMA_LWIP_i/axi_smc/inst/clk_map/psr_aclk/U0'
+Parsing XDC File [f:/ZYNQ7020/FPGA_EXAMPLE/AXI_DMA_LWIP/AXI_DMA_LWIP.srcs/sources_1/bd/AXI_DMA_LWIP/ip/AXI_DMA_LWIP_axi_smc_0/bd_0/ip/ip_1/bd_bd24_psr_aclk_0.xdc] for cell 'AXI_DMA_LWIP_i/axi_smc/inst/clk_map/psr_aclk/U0'
+Finished Parsing XDC File [f:/ZYNQ7020/FPGA_EXAMPLE/AXI_DMA_LWIP/AXI_DMA_LWIP.srcs/sources_1/bd/AXI_DMA_LWIP/ip/AXI_DMA_LWIP_axi_smc_0/bd_0/ip/ip_1/bd_bd24_psr_aclk_0.xdc] for cell 'AXI_DMA_LWIP_i/axi_smc/inst/clk_map/psr_aclk/U0'
+Parsing XDC File [f:/ZYNQ7020/FPGA_EXAMPLE/AXI_DMA_LWIP/AXI_DMA_LWIP.srcs/sources_1/bd/AXI_DMA_LWIP/ip/AXI_DMA_LWIP_rst_ps7_0_100M_0/AXI_DMA_LWIP_rst_ps7_0_100M_0_board.xdc] for cell 'AXI_DMA_LWIP_i/rst_ps7_0_100M/U0'
+Finished Parsing XDC File [f:/ZYNQ7020/FPGA_EXAMPLE/AXI_DMA_LWIP/AXI_DMA_LWIP.srcs/sources_1/bd/AXI_DMA_LWIP/ip/AXI_DMA_LWIP_rst_ps7_0_100M_0/AXI_DMA_LWIP_rst_ps7_0_100M_0_board.xdc] for cell 'AXI_DMA_LWIP_i/rst_ps7_0_100M/U0'
+Parsing XDC File [f:/ZYNQ7020/FPGA_EXAMPLE/AXI_DMA_LWIP/AXI_DMA_LWIP.srcs/sources_1/bd/AXI_DMA_LWIP/ip/AXI_DMA_LWIP_rst_ps7_0_100M_0/AXI_DMA_LWIP_rst_ps7_0_100M_0.xdc] for cell 'AXI_DMA_LWIP_i/rst_ps7_0_100M/U0'
+Finished Parsing XDC File [f:/ZYNQ7020/FPGA_EXAMPLE/AXI_DMA_LWIP/AXI_DMA_LWIP.srcs/sources_1/bd/AXI_DMA_LWIP/ip/AXI_DMA_LWIP_rst_ps7_0_100M_0/AXI_DMA_LWIP_rst_ps7_0_100M_0.xdc] for cell 'AXI_DMA_LWIP_i/rst_ps7_0_100M/U0'
+Parsing XDC File [f:/ZYNQ7020/FPGA_EXAMPLE/AXI_DMA_LWIP/AXI_DMA_LWIP.srcs/sources_1/bd/AXI_DMA_LWIP/ip/AXI_DMA_LWIP_system_ila_0_0/bd_0/ip/ip_0/ila_v6_2/constraints/ila_impl.xdc] for cell 'AXI_DMA_LWIP_i/system_ila_0/inst/ila_lib/inst'
+Finished Parsing XDC File [f:/ZYNQ7020/FPGA_EXAMPLE/AXI_DMA_LWIP/AXI_DMA_LWIP.srcs/sources_1/bd/AXI_DMA_LWIP/ip/AXI_DMA_LWIP_system_ila_0_0/bd_0/ip/ip_0/ila_v6_2/constraints/ila_impl.xdc] for cell 'AXI_DMA_LWIP_i/system_ila_0/inst/ila_lib/inst'
+Parsing XDC File [f:/ZYNQ7020/FPGA_EXAMPLE/AXI_DMA_LWIP/AXI_DMA_LWIP.srcs/sources_1/bd/AXI_DMA_LWIP/ip/AXI_DMA_LWIP_system_ila_0_0/bd_0/ip/ip_0/ila_v6_2/constraints/ila.xdc] for cell 'AXI_DMA_LWIP_i/system_ila_0/inst/ila_lib/inst'
+Finished Parsing XDC File [f:/ZYNQ7020/FPGA_EXAMPLE/AXI_DMA_LWIP/AXI_DMA_LWIP.srcs/sources_1/bd/AXI_DMA_LWIP/ip/AXI_DMA_LWIP_system_ila_0_0/bd_0/ip/ip_0/ila_v6_2/constraints/ila.xdc] for cell 'AXI_DMA_LWIP_i/system_ila_0/inst/ila_lib/inst'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'f:/ZYNQ7020/FPGA_EXAMPLE/AXI_DMA_LWIP/AXI_DMA_LWIP.srcs/sources_1/bd/AXI_DMA_LWIP/ip/AXI_DMA_LWIP_axi_dma_0_0/AXI_DMA_LWIP_axi_dma_0_0.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'f:/ZYNQ7020/FPGA_EXAMPLE/AXI_DMA_LWIP/AXI_DMA_LWIP.srcs/sources_1/bd/AXI_DMA_LWIP/ip/AXI_DMA_LWIP_axis_data_fifo_0_0/AXI_DMA_LWIP_axis_data_fifo_0_0.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'f:/ZYNQ7020/FPGA_EXAMPLE/AXI_DMA_LWIP/AXI_DMA_LWIP.srcs/sources_1/bd/AXI_DMA_LWIP/ip/AXI_DMA_LWIP_axi_smc_0/AXI_DMA_LWIP_axi_smc_0.dcp'
+Parsing XDC File [f:/ZYNQ7020/FPGA_EXAMPLE/AXI_DMA_LWIP/AXI_DMA_LWIP.srcs/sources_1/bd/AXI_DMA_LWIP/ip/AXI_DMA_LWIP_axi_dma_0_0/AXI_DMA_LWIP_axi_dma_0_0_clocks.xdc] for cell 'AXI_DMA_LWIP_i/axi_dma_0/U0'
+Finished Parsing XDC File [f:/ZYNQ7020/FPGA_EXAMPLE/AXI_DMA_LWIP/AXI_DMA_LWIP.srcs/sources_1/bd/AXI_DMA_LWIP/ip/AXI_DMA_LWIP_axi_dma_0_0/AXI_DMA_LWIP_axi_dma_0_0_clocks.xdc] for cell 'AXI_DMA_LWIP_i/axi_dma_0/U0'
+Parsing XDC File [f:/ZYNQ7020/FPGA_EXAMPLE/AXI_DMA_LWIP/AXI_DMA_LWIP.srcs/sources_1/bd/AXI_DMA_LWIP/ip/AXI_DMA_LWIP_axis_data_fifo_0_0/AXI_DMA_LWIP_axis_data_fifo_0_0/AXI_DMA_LWIP_axis_data_fifo_0_0_clocks.xdc] for cell 'AXI_DMA_LWIP_i/axis_data_fifo_0/inst'
+Finished Parsing XDC File [f:/ZYNQ7020/FPGA_EXAMPLE/AXI_DMA_LWIP/AXI_DMA_LWIP.srcs/sources_1/bd/AXI_DMA_LWIP/ip/AXI_DMA_LWIP_axis_data_fifo_0_0/AXI_DMA_LWIP_axis_data_fifo_0_0/AXI_DMA_LWIP_axis_data_fifo_0_0_clocks.xdc] for cell 'AXI_DMA_LWIP_i/axis_data_fifo_0/inst'
+Sourcing Tcl File [E:/Xilinx_Vivado/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'AXI_DMA_LWIP_i/axis_data_fifo_0/inst/gen_fifo_generator.fifo_generator_inst/inst_fifo_gen/gaxis_fifo.gaxisf.axisf/grf.rf/gntv_or_sync_fifo.gcx.clkx/rd_pntr_cdc_inst'
+Finished Sourcing Tcl File [E:/Xilinx_Vivado/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'AXI_DMA_LWIP_i/axis_data_fifo_0/inst/gen_fifo_generator.fifo_generator_inst/inst_fifo_gen/gaxis_fifo.gaxisf.axisf/grf.rf/gntv_or_sync_fifo.gcx.clkx/rd_pntr_cdc_inst'
+Sourcing Tcl File [E:/Xilinx_Vivado/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'AXI_DMA_LWIP_i/axis_data_fifo_0/inst/gen_fifo_generator.fifo_generator_inst/inst_fifo_gen/gaxis_fifo.gaxisf.axisf/grf.rf/gntv_or_sync_fifo.gcx.clkx/wr_pntr_cdc_inst'
+Finished Sourcing Tcl File [E:/Xilinx_Vivado/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'AXI_DMA_LWIP_i/axis_data_fifo_0/inst/gen_fifo_generator.fifo_generator_inst/inst_fifo_gen/gaxis_fifo.gaxisf.axisf/grf.rf/gntv_or_sync_fifo.gcx.clkx/wr_pntr_cdc_inst'
+Sourcing Tcl File [E:/Xilinx_Vivado/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'AXI_DMA_LWIP_i/axis_data_fifo_0/inst/gen_fifo_generator.fifo_generator_inst/inst_fifo_gen/gaxis_fifo.gaxisf.axisf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gsckt_wrst.gic_rst.xpm_cdc_single_inst_rrst_wr'
+Finished Sourcing Tcl File [E:/Xilinx_Vivado/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'AXI_DMA_LWIP_i/axis_data_fifo_0/inst/gen_fifo_generator.fifo_generator_inst/inst_fifo_gen/gaxis_fifo.gaxisf.axisf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gsckt_wrst.gic_rst.xpm_cdc_single_inst_rrst_wr'
+Sourcing Tcl File [E:/Xilinx_Vivado/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'AXI_DMA_LWIP_i/axis_data_fifo_0/inst/gen_fifo_generator.fifo_generator_inst/inst_fifo_gen/gaxis_fifo.gaxisf.axisf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gsckt_wrst.gic_rst.xpm_cdc_single_inst_wrst_rd'
+Finished Sourcing Tcl File [E:/Xilinx_Vivado/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'AXI_DMA_LWIP_i/axis_data_fifo_0/inst/gen_fifo_generator.fifo_generator_inst/inst_fifo_gen/gaxis_fifo.gaxisf.axisf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gsckt_wrst.gic_rst.xpm_cdc_single_inst_wrst_rd'
+Sourcing Tcl File [E:/Xilinx_Vivado/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_sync_rst.tcl] for cell 'AXI_DMA_LWIP_i/axis_data_fifo_0/inst/gen_async_clock_and_reset.inst_xpm_cdc_sync_rst'
+Finished Sourcing Tcl File [E:/Xilinx_Vivado/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_sync_rst.tcl] for cell 'AXI_DMA_LWIP_i/axis_data_fifo_0/inst/gen_async_clock_and_reset.inst_xpm_cdc_sync_rst'
+Sourcing Tcl File [E:/Xilinx_Vivado/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_sync_rst.tcl] for cell 'AXI_DMA_LWIP_i/axis_data_fifo_0/inst/gen_fifo_generator.fifo_generator_inst/inst_fifo_gen/gaxis_fifo.gaxisf.axisf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gsckt_wrst.gic_rst.xpm_cdc_sync_rst_inst_wrst'
+Finished Sourcing Tcl File [E:/Xilinx_Vivado/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_sync_rst.tcl] for cell 'AXI_DMA_LWIP_i/axis_data_fifo_0/inst/gen_fifo_generator.fifo_generator_inst/inst_fifo_gen/gaxis_fifo.gaxisf.axisf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gsckt_wrst.gic_rst.xpm_cdc_sync_rst_inst_wrst'
+Sourcing Tcl File [E:/Xilinx_Vivado/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_sync_rst.tcl] for cell 'AXI_DMA_LWIP_i/axis_data_fifo_0/inst/gen_fifo_generator.fifo_generator_inst/inst_fifo_gen/gaxis_fifo.gaxisf.axisf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gsckt_wrst.xpm_cdc_sync_rst_inst_wrst'
+Finished Sourcing Tcl File [E:/Xilinx_Vivado/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_sync_rst.tcl] for cell 'AXI_DMA_LWIP_i/axis_data_fifo_0/inst/gen_fifo_generator.fifo_generator_inst/inst_fifo_gen/gaxis_fifo.gaxisf.axisf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gsckt_wrst.xpm_cdc_sync_rst_inst_wrst'
+Sourcing Tcl File [E:/Xilinx_Vivado/Vivado/2017.4/data/ip/xpm/xpm_fifo/tcl/xpm_fifo_rst.tcl] for cell 'AXI_DMA_LWIP_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_XD_FIFO/NON_BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst'
+Finished Sourcing Tcl File [E:/Xilinx_Vivado/Vivado/2017.4/data/ip/xpm/xpm_fifo/tcl/xpm_fifo_rst.tcl] for cell 'AXI_DMA_LWIP_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_XD_FIFO/NON_BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst'
+Sourcing Tcl File [E:/Xilinx_Vivado/Vivado/2017.4/data/ip/xpm/xpm_fifo/tcl/xpm_fifo_rst.tcl] for cell 'AXI_DMA_LWIP_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst'
+Finished Sourcing Tcl File [E:/Xilinx_Vivado/Vivado/2017.4/data/ip/xpm/xpm_fifo/tcl/xpm_fifo_rst.tcl] for cell 'AXI_DMA_LWIP_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst'
+Sourcing Tcl File [E:/Xilinx_Vivado/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'AXI_DMA_LWIP_i/axi_smc/inst/s00_nodes/s00_aw_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Finished Sourcing Tcl File [E:/Xilinx_Vivado/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'AXI_DMA_LWIP_i/axi_smc/inst/s00_nodes/s00_aw_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Sourcing Tcl File [E:/Xilinx_Vivado/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'AXI_DMA_LWIP_i/axi_smc/inst/s00_nodes/s00_b_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Finished Sourcing Tcl File [E:/Xilinx_Vivado/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'AXI_DMA_LWIP_i/axi_smc/inst/s00_nodes/s00_b_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Sourcing Tcl File [E:/Xilinx_Vivado/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'AXI_DMA_LWIP_i/axi_smc/inst/s00_nodes/s00_w_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Finished Sourcing Tcl File [E:/Xilinx_Vivado/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'AXI_DMA_LWIP_i/axi_smc/inst/s00_nodes/s00_w_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 106 instances were transformed.
+  CFGLUT5 => CFGLUT5 (SRLC32E, SRL16E): 56 instances
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 50 instances
+
+22 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+link_design: Time (s): cpu = 00:00:27 ; elapsed = 00:00:34 . Memory (MB): peak = 1315.691 ; gain = 942.355
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.796 . Memory (MB): peak = 1315.691 ; gain = 0.000
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Starting Logic Optimization Task
+
+Phase 1 Generate And Synthesize Debug Cores
+INFO: [Chipscope 16-318] Generating core instance : dbg_hub
+INFO: [IP_Flow 19-3806] Processing IP xilinx.com:ip:xsdbm:3.0 for cell dbg_hub_CV.
+INFO: [Netlist 29-17] Analyzing 143 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.028 . Memory (MB): peak = 1315.691 ; gain = 0.000
+Phase 1 Generate And Synthesize Debug Cores | Checksum: 12d22be91
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:02:10 . Memory (MB): peak = 1315.691 ; gain = 0.000
+
+Phase 2 Retarget
+INFO: [Opt 31-138] Pushed 7 inverter(s) to 38 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 2 Retarget | Checksum: 20b758fb9
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:02:11 . Memory (MB): peak = 1315.691 ; gain = 0.000
+INFO: [Opt 31-389] Phase Retarget created 23 cells and removed 106 cells
+
+Phase 3 Constant propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Phase 3 Constant propagation | Checksum: 1d1b27756
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:02:11 . Memory (MB): peak = 1315.691 ; gain = 0.000
+INFO: [Opt 31-389] Phase Constant propagation created 3 cells and removed 104 cells
+
+Phase 4 Sweep
+Phase 4 Sweep | Checksum: 16622b4e9
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:02:13 . Memory (MB): peak = 1315.691 ; gain = 0.000
+INFO: [Opt 31-389] Phase Sweep created 0 cells and removed 693 cells
+
+Phase 5 BUFG optimization
+Phase 5 BUFG optimization | Checksum: 16622b4e9
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:02:13 . Memory (MB): peak = 1315.691 ; gain = 0.000
+INFO: [Opt 31-389] Phase BUFG optimization created 0 cells and removed 0 cells
+
+Phase 6 Shift Register Optimization
+Phase 6 Shift Register Optimization | Checksum: 16622b4e9
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:02:13 . Memory (MB): peak = 1315.691 ; gain = 0.000
+INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.023 . Memory (MB): peak = 1315.691 ; gain = 0.000
+Ending Logic Optimization Task | Checksum: 19b34b12f
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:02:14 . Memory (MB): peak = 1315.691 ; gain = 0.000
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+INFO: [Pwropt 34-9] Applying IDT optimizations ...
+INFO: [Pwropt 34-10] Applying ODC optimizations ...
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=3.894 | TNS=0.000 |
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+
+
+Starting PowerOpt Patch Enables Task
+INFO: [Pwropt 34-162] WRITE_MODE attribute of 2 BRAM(s) out of a total of 5 has been updated to save power. Run report_power_opt to get a complete listing of the BRAMs updated.
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Pwropt 34-201] Structural ODC has moved 2 WE to EN ports
+Number of BRAM Ports augmented: 3 newly gated: 2 Total Ports: 10
+Ending PowerOpt Patch Enables Task | Checksum: 1983f0a07
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.573 . Memory (MB): peak = 1588.910 ; gain = 0.000
+Ending Power Optimization Task | Checksum: 1983f0a07
+
+Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 1588.910 ; gain = 273.219
+INFO: [Common 17-83] Releasing license: Implementation
+51 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:14 ; elapsed = 00:02:21 . Memory (MB): peak = 1588.910 ; gain = 273.219
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.128 . Memory (MB): peak = 1588.910 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'F:/ZYNQ7020/FPGA_EXAMPLE/AXI_DMA_LWIP/AXI_DMA_LWIP.runs/impl_1/AXI_DMA_LWIP_wrapper_opt.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_drc -file AXI_DMA_LWIP_wrapper_drc_opted.rpt -pb AXI_DMA_LWIP_wrapper_drc_opted.pb -rpx AXI_DMA_LWIP_wrapper_drc_opted.rpx
+Command: report_drc -file AXI_DMA_LWIP_wrapper_drc_opted.rpt -pb AXI_DMA_LWIP_wrapper_drc_opted.pb -rpx AXI_DMA_LWIP_wrapper_drc_opted.rpx
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Coretcl 2-168] The results of DRC are in file F:/ZYNQ7020/FPGA_EXAMPLE/AXI_DMA_LWIP/AXI_DMA_LWIP.runs/impl_1/AXI_DMA_LWIP_wrapper_drc_opted.rpt.
+report_drc completed successfully
+INFO: [Chipscope 16-240] Debug cores have already been implemented
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 2 CPUs
+
+Phase 1 Placer Initialization
+
+Phase 1.1 Placer Initialization Netlist Sorting
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.020 . Memory (MB): peak = 1588.910 ; gain = 0.000
+Phase 1.1 Placer Initialization Netlist Sorting | Checksum: 146133e1d
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.073 . Memory (MB): peak = 1588.910 ; gain = 0.000
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.020 . Memory (MB): peak = 1588.910 ; gain = 0.000
+
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: ebe9d03e
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1588.910 ; gain = 0.000
+
+Phase 1.3 Build Placer Netlist Model
+Phase 1.3 Build Placer Netlist Model | Checksum: a8f331ba
+
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1588.910 ; gain = 0.000
+
+Phase 1.4 Constrain Clocks/Macros
+Phase 1.4 Constrain Clocks/Macros | Checksum: a8f331ba
+
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1588.910 ; gain = 0.000
+Phase 1 Placer Initialization | Checksum: a8f331ba
+
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1588.910 ; gain = 0.000
+
+Phase 2 Global Placement
+Phase 2 Global Placement | Checksum: 1527597c4
+
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:11 . Memory (MB): peak = 1588.910 ; gain = 0.000
+
+Phase 3 Detail Placement
+
+Phase 3.1 Commit Multi Column Macros
+Phase 3.1 Commit Multi Column Macros | Checksum: 1527597c4
+
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:11 . Memory (MB): peak = 1588.910 ; gain = 0.000
+
+Phase 3.2 Commit Most Macros & LUTRAMs
+Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: be4fecd5
+
+Time (s): cpu = 00:00:14 ; elapsed = 00:00:12 . Memory (MB): peak = 1588.910 ; gain = 0.000
+
+Phase 3.3 Area Swap Optimization
+Phase 3.3 Area Swap Optimization | Checksum: 5444f07a
+
+Time (s): cpu = 00:00:14 ; elapsed = 00:00:12 . Memory (MB): peak = 1588.910 ; gain = 0.000
+
+Phase 3.4 Pipeline Register Optimization
+Phase 3.4 Pipeline Register Optimization | Checksum: 39495fc3
+
+Time (s): cpu = 00:00:14 ; elapsed = 00:00:12 . Memory (MB): peak = 1588.910 ; gain = 0.000
+
+Phase 3.5 Small Shape Detail Placement
+Phase 3.5 Small Shape Detail Placement | Checksum: af9d17ad
+
+Time (s): cpu = 00:00:16 ; elapsed = 00:00:15 . Memory (MB): peak = 1588.910 ; gain = 0.000
+
+Phase 3.6 Re-assign LUT pins
+Phase 3.6 Re-assign LUT pins | Checksum: b64aa349
+
+Time (s): cpu = 00:00:17 ; elapsed = 00:00:15 . Memory (MB): peak = 1588.910 ; gain = 0.000
+
+Phase 3.7 Pipeline Register Optimization
+Phase 3.7 Pipeline Register Optimization | Checksum: b64aa349
+
+Time (s): cpu = 00:00:17 ; elapsed = 00:00:15 . Memory (MB): peak = 1588.910 ; gain = 0.000
+Phase 3 Detail Placement | Checksum: b64aa349
+
+Time (s): cpu = 00:00:17 ; elapsed = 00:00:15 . Memory (MB): peak = 1588.910 ; gain = 0.000
+
+Phase 4 Post Placement Optimization and Clean-Up
+
+Phase 4.1 Post Commit Optimization
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Phase 4.1.1 Post Placement Optimization
+Post Placement Optimization Initialization | Checksum: 1784655ae
+
+Phase 4.1.1.1 BUFG Insertion
+INFO: [Physopt 32-721] Multithreading enabled for phys_opt_design using a maximum of 2 CPUs
+INFO: [Place 46-31] BUFG insertion identified 0 candidate nets, 0 success, 0 skipped for placement/routing, 0 skipped for timing, 0 skipped for netlist change reason.
+Phase 4.1.1.1 BUFG Insertion | Checksum: 1784655ae
+
+Time (s): cpu = 00:00:19 ; elapsed = 00:00:17 . Memory (MB): peak = 1588.910 ; gain = 0.000
+INFO: [Place 30-746] Post Placement Timing Summary WNS=4.102. For the most accurate timing information please run report_timing.
+Phase 4.1.1 Post Placement Optimization | Checksum: 1861a1566
+
+Time (s): cpu = 00:00:19 ; elapsed = 00:00:17 . Memory (MB): peak = 1588.910 ; gain = 0.000
+Phase 4.1 Post Commit Optimization | Checksum: 1861a1566
+
+Time (s): cpu = 00:00:19 ; elapsed = 00:00:17 . Memory (MB): peak = 1588.910 ; gain = 0.000
+
+Phase 4.2 Post Placement Cleanup
+Phase 4.2 Post Placement Cleanup | Checksum: 1861a1566
+
+Time (s): cpu = 00:00:19 ; elapsed = 00:00:17 . Memory (MB): peak = 1588.910 ; gain = 0.000
+
+Phase 4.3 Placer Reporting
+Phase 4.3 Placer Reporting | Checksum: 1861a1566
+
+Time (s): cpu = 00:00:19 ; elapsed = 00:00:17 . Memory (MB): peak = 1588.910 ; gain = 0.000
+
+Phase 4.4 Final Placement Cleanup
+Phase 4.4 Final Placement Cleanup | Checksum: 15cc69a89
+
+Time (s): cpu = 00:00:19 ; elapsed = 00:00:17 . Memory (MB): peak = 1588.910 ; gain = 0.000
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 15cc69a89
+
+Time (s): cpu = 00:00:19 ; elapsed = 00:00:17 . Memory (MB): peak = 1588.910 ; gain = 0.000
+Ending Placer Task | Checksum: 13b4cf38c
+
+Time (s): cpu = 00:00:19 ; elapsed = 00:00:17 . Memory (MB): peak = 1588.910 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+73 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+place_design: Time (s): cpu = 00:00:23 ; elapsed = 00:00:19 . Memory (MB): peak = 1588.910 ; gain = 0.000
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.639 . Memory (MB): peak = 1588.910 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'F:/ZYNQ7020/FPGA_EXAMPLE/AXI_DMA_LWIP/AXI_DMA_LWIP.runs/impl_1/AXI_DMA_LWIP_wrapper_placed.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_io -file AXI_DMA_LWIP_wrapper_io_placed.rpt
+report_io: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.132 . Memory (MB): peak = 1588.910 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_utilization -file AXI_DMA_LWIP_wrapper_utilization_placed.rpt -pb AXI_DMA_LWIP_wrapper_utilization_placed.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.183 . Memory (MB): peak = 1588.910 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_control_sets -verbose -file AXI_DMA_LWIP_wrapper_control_sets_placed.rpt
+report_control_sets: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.036 . Memory (MB): peak = 1588.910 ; gain = 0.000
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+Running DRC as a precondition to command route_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+
+Starting Routing Task
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 2 CPUs
+Checksum: PlaceDB: a67cbc07 ConstDB: 0 ShapeSum: 94d03785 RouteDB: 0
+
+Phase 1 Build RT Design
+Phase 1 Build RT Design | Checksum: f98cc59b
+
+Time (s): cpu = 00:00:27 ; elapsed = 00:00:24 . Memory (MB): peak = 1588.910 ; gain = 0.000
+Post Restoration Checksum: NetGraph: 685a8572 NumContArr: 91324029 Constraints: 0 Timing: 0
+
+Phase 2 Router Initialization
+
+Phase 2.1 Create Timer
+Phase 2.1 Create Timer | Checksum: f98cc59b
+
+Time (s): cpu = 00:00:27 ; elapsed = 00:00:24 . Memory (MB): peak = 1588.910 ; gain = 0.000
+
+Phase 2.2 Fix Topology Constraints
+Phase 2.2 Fix Topology Constraints | Checksum: f98cc59b
+
+Time (s): cpu = 00:00:27 ; elapsed = 00:00:24 . Memory (MB): peak = 1588.910 ; gain = 0.000
+
+Phase 2.3 Pre Route Cleanup
+Phase 2.3 Pre Route Cleanup | Checksum: f98cc59b
+
+Time (s): cpu = 00:00:27 ; elapsed = 00:00:24 . Memory (MB): peak = 1588.910 ; gain = 0.000
+ Number of Nodes with overlaps = 0
+
+Phase 2.4 Update Timing
+Phase 2.4 Update Timing | Checksum: f84f96a2
+
+Time (s): cpu = 00:00:30 ; elapsed = 00:00:26 . Memory (MB): peak = 1588.910 ; gain = 0.000
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=4.181  | TNS=0.000  | WHS=-0.323 | THS=-398.544|
+
+
+Phase 2.5 Update Timing for Bus Skew
+
+Phase 2.5.1 Update Timing
+Phase 2.5.1 Update Timing | Checksum: 845e818b
+
+Time (s): cpu = 00:00:32 ; elapsed = 00:00:27 . Memory (MB): peak = 1588.910 ; gain = 0.000
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=4.181  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+
+Phase 2.5 Update Timing for Bus Skew | Checksum: 11df2e25f
+
+Time (s): cpu = 00:00:32 ; elapsed = 00:00:27 . Memory (MB): peak = 1588.910 ; gain = 0.000
+Phase 2 Router Initialization | Checksum: 2e9c17bd
+
+Time (s): cpu = 00:00:32 ; elapsed = 00:00:27 . Memory (MB): peak = 1588.910 ; gain = 0.000
+
+Phase 3 Initial Routing
+Phase 3 Initial Routing | Checksum: 1f4e63dcf
+
+Time (s): cpu = 00:00:33 ; elapsed = 00:00:28 . Memory (MB): peak = 1588.910 ; gain = 0.000
+
+Phase 4 Rip-up And Reroute
+
+Phase 4.1 Global Iteration 0
+ Number of Nodes with overlaps = 516
+ Number of Nodes with overlaps = 3
+ Number of Nodes with overlaps = 0
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=4.001  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+
+Phase 4.1 Global Iteration 0 | Checksum: 1c5eb4ff5
+
+Time (s): cpu = 00:00:36 ; elapsed = 00:00:30 . Memory (MB): peak = 1588.910 ; gain = 0.000
+Phase 4 Rip-up And Reroute | Checksum: 1c5eb4ff5
+
+Time (s): cpu = 00:00:36 ; elapsed = 00:00:30 . Memory (MB): peak = 1588.910 ; gain = 0.000
+
+Phase 5 Delay and Skew Optimization
+
+Phase 5.1 Delay CleanUp
+Phase 5.1 Delay CleanUp | Checksum: 1c5eb4ff5
+
+Time (s): cpu = 00:00:36 ; elapsed = 00:00:30 . Memory (MB): peak = 1588.910 ; gain = 0.000
+
+Phase 5.2 Clock Skew Optimization
+Phase 5.2 Clock Skew Optimization | Checksum: 1c5eb4ff5
+
+Time (s): cpu = 00:00:36 ; elapsed = 00:00:30 . Memory (MB): peak = 1588.910 ; gain = 0.000
+Phase 5 Delay and Skew Optimization | Checksum: 1c5eb4ff5
+
+Time (s): cpu = 00:00:36 ; elapsed = 00:00:30 . Memory (MB): peak = 1588.910 ; gain = 0.000
+
+Phase 6 Post Hold Fix
+
+Phase 6.1 Hold Fix Iter
+
+Phase 6.1.1 Update Timing
+Phase 6.1.1 Update Timing | Checksum: 20f9cd91f
+
+Time (s): cpu = 00:00:37 ; elapsed = 00:00:30 . Memory (MB): peak = 1588.910 ; gain = 0.000
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=4.097  | TNS=0.000  | WHS=0.032  | THS=0.000  |
+
+Phase 6.1 Hold Fix Iter | Checksum: 1a267e059
+
+Time (s): cpu = 00:00:37 ; elapsed = 00:00:30 . Memory (MB): peak = 1588.910 ; gain = 0.000
+Phase 6 Post Hold Fix | Checksum: 1a267e059
+
+Time (s): cpu = 00:00:37 ; elapsed = 00:00:30 . Memory (MB): peak = 1588.910 ; gain = 0.000
+
+Phase 7 Route finalize
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 1.01092 %
+  Global Horizontal Routing Utilization  = 1.21586 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 0
+  Number of Unrouted Nets             = 0
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Phase 7 Route finalize | Checksum: 22ebebbf1
+
+Time (s): cpu = 00:00:37 ; elapsed = 00:00:30 . Memory (MB): peak = 1588.910 ; gain = 0.000
+
+Phase 8 Verifying routed nets
+
+ Verification completed successfully
+Phase 8 Verifying routed nets | Checksum: 22ebebbf1
+
+Time (s): cpu = 00:00:37 ; elapsed = 00:00:30 . Memory (MB): peak = 1588.910 ; gain = 0.000
+
+Phase 9 Depositing Routes
+Phase 9 Depositing Routes | Checksum: 193a36f2d
+
+Time (s): cpu = 00:00:38 ; elapsed = 00:00:31 . Memory (MB): peak = 1588.910 ; gain = 0.000
+
+Phase 10 Post Router Timing
+INFO: [Route 35-57] Estimated Timing Summary | WNS=4.097  | TNS=0.000  | WHS=0.032  | THS=0.000  |
+
+INFO: [Route 35-327] The final timing numbers are based on the router estimated timing analysis. For a complete and accurate timing signoff, please run report_timing_summary.
+Phase 10 Post Router Timing | Checksum: 193a36f2d
+
+Time (s): cpu = 00:00:38 ; elapsed = 00:00:31 . Memory (MB): peak = 1588.910 ; gain = 0.000
+INFO: [Route 35-16] Router Completed Successfully
+
+Time (s): cpu = 00:00:38 ; elapsed = 00:00:31 . Memory (MB): peak = 1588.910 ; gain = 0.000
+
+Routing Is Done.
+INFO: [Common 17-83] Releasing license: Implementation
+90 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+route_design completed successfully
+route_design: Time (s): cpu = 00:00:41 ; elapsed = 00:00:33 . Memory (MB): peak = 1588.910 ; gain = 0.000
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.857 . Memory (MB): peak = 1588.910 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'F:/ZYNQ7020/FPGA_EXAMPLE/AXI_DMA_LWIP/AXI_DMA_LWIP.runs/impl_1/AXI_DMA_LWIP_wrapper_routed.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_drc -file AXI_DMA_LWIP_wrapper_drc_routed.rpt -pb AXI_DMA_LWIP_wrapper_drc_routed.pb -rpx AXI_DMA_LWIP_wrapper_drc_routed.rpx
+Command: report_drc -file AXI_DMA_LWIP_wrapper_drc_routed.rpt -pb AXI_DMA_LWIP_wrapper_drc_routed.pb -rpx AXI_DMA_LWIP_wrapper_drc_routed.rpx
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Coretcl 2-168] The results of DRC are in file F:/ZYNQ7020/FPGA_EXAMPLE/AXI_DMA_LWIP/AXI_DMA_LWIP.runs/impl_1/AXI_DMA_LWIP_wrapper_drc_routed.rpt.
+report_drc completed successfully
+INFO: [runtcl-4] Executing : report_methodology -file AXI_DMA_LWIP_wrapper_methodology_drc_routed.rpt -pb AXI_DMA_LWIP_wrapper_methodology_drc_routed.pb -rpx AXI_DMA_LWIP_wrapper_methodology_drc_routed.rpx
+Command: report_methodology -file AXI_DMA_LWIP_wrapper_methodology_drc_routed.rpt -pb AXI_DMA_LWIP_wrapper_methodology_drc_routed.pb -rpx AXI_DMA_LWIP_wrapper_methodology_drc_routed.rpx
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [DRC 23-133] Running Methodology with 2 threads
+INFO: [Coretcl 2-1520] The results of Report Methodology are in file F:/ZYNQ7020/FPGA_EXAMPLE/AXI_DMA_LWIP/AXI_DMA_LWIP.runs/impl_1/AXI_DMA_LWIP_wrapper_methodology_drc_routed.rpt.
+report_methodology completed successfully
+INFO: [runtcl-4] Executing : report_power -file AXI_DMA_LWIP_wrapper_power_routed.rpt -pb AXI_DMA_LWIP_wrapper_power_summary_routed.pb -rpx AXI_DMA_LWIP_wrapper_power_routed.rpx
+Command: report_power -file AXI_DMA_LWIP_wrapper_power_routed.rpt -pb AXI_DMA_LWIP_wrapper_power_summary_routed.pb -rpx AXI_DMA_LWIP_wrapper_power_routed.rpx
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+WARNING: [Power 33-332] Found switching activity that implies high-fanout reset nets being asserted for excessive periods of time which may result in inaccurate power analysis.
+Resolution: To review and fix problems, please run Power Constraints Advisor in the GUI from Tools > Power Constraints Advisor or run report_power with the -advisory option to generate a text report.
+102 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+report_power completed successfully
+INFO: [runtcl-4] Executing : report_route_status -file AXI_DMA_LWIP_wrapper_route_status.rpt -pb AXI_DMA_LWIP_wrapper_route_status.pb
+INFO: [runtcl-4] Executing : report_timing_summary -max_paths 10 -file AXI_DMA_LWIP_wrapper_timing_summary_routed.rpt -rpx AXI_DMA_LWIP_wrapper_timing_summary_routed.rpx -warn_on_violation 
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -2, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+WARNING: [Timing 38-436] There are set_bus_skew constraint(s) in this design. Please run report_bus_skew to ensure that bus skew requirements are met.
+INFO: [runtcl-4] Executing : report_incremental_reuse -file AXI_DMA_LWIP_wrapper_incremental_reuse_routed.rpt
+INFO: [Vivado_Tcl 4-545] No incremental reuse to report, no incremental placement and routing data was found.
+INFO: [runtcl-4] Executing : report_clock_utilization -file AXI_DMA_LWIP_wrapper_clock_utilization_routed.rpt
+WARNING: [Memdata 28-167] Found XPM memory block AXI_DMA_LWIP_i/axi_smc/inst/s00_nodes/s00_w_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to distributed. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the AXI_DMA_LWIP_i/axi_smc/inst/s00_nodes/s00_w_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst block.
+WARNING: [Memdata 28-167] Found XPM memory block AXI_DMA_LWIP_i/axi_smc/inst/s00_nodes/s00_b_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to distributed. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the AXI_DMA_LWIP_i/axi_smc/inst/s00_nodes/s00_b_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst block.
+WARNING: [Memdata 28-167] Found XPM memory block AXI_DMA_LWIP_i/axi_smc/inst/s00_nodes/s00_aw_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to distributed. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the AXI_DMA_LWIP_i/axi_smc/inst/s00_nodes/s00_aw_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst block.
+WARNING: [Memdata 28-167] Found XPM memory block AXI_DMA_LWIP_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_XD_FIFO/NON_BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to auto. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the AXI_DMA_LWIP_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_XD_FIFO/NON_BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst block.
+INFO: [Memdata 28-208] The XPM instance: <AXI_DMA_LWIP_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst> is part of IP: <AXI_DMA_LWIP_i/axi_dma_0>. This XPM instance will be excluded from the .mmi because updatemem is prohibited from making changes to an XPM that is part of an IP.
+Command: write_bitstream -force AXI_DMA_LWIP_wrapper.bit
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+Running DRC as a precondition to command write_bitstream
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 2 threads
+WARNING: [DRC RTSTAT-10] No routable loads: 24 net(s) have no routable loads. The problem bus(es) and/or net(s) are AXI_DMA_LWIP_i/axis_data_fifo_0/inst/gen_fifo_generator.fifo_generator_inst/inst_fifo_gen/gaxis_fifo.gaxisf.axisf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/ENA_dly_D, AXI_DMA_LWIP_i/axis_data_fifo_0/inst/gen_fifo_generator.fifo_generator_inst/inst_fifo_gen/gaxis_fifo.gaxisf.axisf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD6_RD/U_RD_FIFO/SUBCORE_FIFO.xsdbm_v3_0_0_rdfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD7_CTL/ctl_reg[2:0], dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD1/ctl_reg_en_2[1], dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD7_CTL/ctl_reg_en_2[1], dbg_hub/inst/BSCANID.u_xsdbm_id/SWITCH_N_EXT_BSCAN.bscan_switch/m_bscan_capture[0], dbg_hub/inst/BSCANID.u_xsdbm_id/SWITCH_N_EXT_BSCAN.bscan_switch/m_bscan_drck[0], dbg_hub/inst/BSCANID.u_xsdbm_id/SWITCH_N_EXT_BSCAN.bscan_switch/m_bscan_runtest[0], AXI_DMA_LWIP_i/axis_data_fifo_0/inst/gen_fifo_generator.fifo_generator_inst/inst_fifo_gen/gaxis_fifo.gaxisf.axisf/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.rsts/ram_empty_i, dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD6_RD/U_RD_FIFO/SUBCORE_FIFO.xsdbm_v3_0_0_rdfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.rsts/ram_empty_i, dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD6_WR/U_WR_FIFO/SUBCORE_FIFO.xsdbm_v3_0_0_wrfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/ram_full_i, dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD6_WR/U_WR_FIFO/SUBCORE_FIFO.xsdbm_v3_0_0_wrfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/rd_rst_reg[0], dbg_hub/inst/BSCANID.u_xsdbm_id/SWITCH_N_EXT_BSCAN.bscan_inst/s_bscan_tms, AXI_DMA_LWIP_i/system_ila_0/inst/ila_lib/inst/ila_core_inst/u_ila_regs/U_XSDB_SLAVE/s_daddr_o[13]... and (the first 15 of 22 listed).
+INFO: [DRC REQP-181] writefirst: Synchronous clocking is detected for BRAM (AXI_DMA_LWIP_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg) in SDP mode with WRITE_FIRST write-mode. This is the preferred mode for best power characteristics, however it may exhibit address collisions if the same address appears on both read and write ports resulting in unknown or corrupted read data. It is suggested to confirm via simulation that an address collision never occurs and if so it is suggested to try and avoid this situation. If address collisions cannot be avoided, the write-mode may be set to READ_FIRST which guarantees that the read data is the prior contents of the memory at the cost of additional power in the design. See the FPGA Memory Resources User Guide for additional information.
+INFO: [Vivado 12-3199] DRC finished with 0 Errors, 1 Warnings, 1 Advisories
+INFO: [Vivado 12-3200] Please refer to the DRC report (report_drc) for more information.
+INFO: [Project 1-821] Please set project.enableDesignId to be 'true'.
+INFO: [Designutils 20-2272] Running write_bitstream with 2 threads.
+Loading data files...
+Loading site data...
+Loading route data...
+Processing options...
+Creating bitmap...
+Creating bitstream...
+Writing bitstream ./AXI_DMA_LWIP_wrapper.bit...
+INFO: [Vivado 12-1842] Bitgen Completed Successfully.
+INFO: [Project 1-120] WebTalk data collection is mandatory when using a WebPACK part without a full Vivado license. To see the specific WebTalk data collected for your design, open the usage_statistics_webtalk.html or usage_statistics_webtalk.xml file in the implementation directory.
+INFO: [Common 17-83] Releasing license: Implementation
+121 Infos, 7 Warnings, 0 Critical Warnings and 0 Errors encountered.
+write_bitstream completed successfully
+write_bitstream: Time (s): cpu = 00:00:27 ; elapsed = 00:00:32 . Memory (MB): peak = 2028.637 ; gain = 432.531
+INFO: [Common 17-206] Exiting Vivado at Mon Mar  4 23:57:30 2019...

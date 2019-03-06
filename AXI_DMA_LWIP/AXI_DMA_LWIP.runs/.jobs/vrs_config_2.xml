@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="AXI_DMA_LWIP_system_ila_0_0_synth_1" LaunchDir="F:/ZYNQ7020/FPGA_EXAMPLE/AXI_DMA_LWIP/AXI_DMA_LWIP.runs/AXI_DMA_LWIP_system_ila_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="AXI_DMA_LWIP_auto_pc_0_synth_1" LaunchDir="F:/ZYNQ7020/FPGA_EXAMPLE/AXI_DMA_LWIP/AXI_DMA_LWIP.runs/AXI_DMA_LWIP_auto_pc_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+</Runs>
+
